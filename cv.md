@@ -1,4 +1,3 @@
-#Test
 # Site settings
 title: Homepage of Dan E.-Y.
 twitter_username: DnEvnsYmmt
