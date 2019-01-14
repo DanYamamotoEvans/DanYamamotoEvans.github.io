@@ -1,10 +1,7 @@
-# Under construction ....
-
+# Dan's random blogs and tweets
 
 ### Jan 2019
 Launched this website :) 
-
-
 
 
 # Other stuff I've been up to lately ...
