@@ -4,7 +4,7 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 
 ![alt text](https://danyamamotoevans.github.io/Welcome/IMG_7743.JPG?raw=true "")
 
-![alt text](https://raw.githubusercontent.com "")
+![alt text](https://raw.githubusercontent.com/DanYamamotoEvans/Welcome/IMG_7743.JPG "")
 
 
 ### Likes
