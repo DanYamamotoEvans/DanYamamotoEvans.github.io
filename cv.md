@@ -23,7 +23,7 @@ Member, Robotic biology consortium, 2015 - present <br>
 
 
 #### Excellent Graduation Project
-Awarded for the graduation thesis by the Keio University with the title "Development of high-throughput technologies to screen protein interactomes". <br>
+Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by the Keio University (Year of 2018) <br>
 
 
 
