@@ -1,1 +1,18 @@
-#About me;
+# About me
+
+### Likes
+:fork_and_knife:
+* Good wine :wine_glass:, craft beer :beers:, Sake :sake: 
+* Flat noodles (Phad-kee-mao, Ramen NAGI, Himokawa-udon, and even Lasagna)
+
+:satisfied:
+* Arts and museums :office:, hot-springs :hotsprings:
+* Darts
+
+### Dislikes
+* Humid summers in Tokyo 
+
+
+Born a hybrid of Japan and New Zealand :round_pushpin:, I could experience growing up both the busiest and relaxing places in the world. Tokyo is where I was mostly raised, playing competitive baseball for 10 years until high school. In the year 2008, I spent 8 months in Feilding New Zealand,staying with my grandparents. That is where I discoverd the fasninating sport rugby (Go All Blacks!!). Life is going good since then.
+
+![alt text](https://github.com/DanYamamotoEvans/Welcome/me.png "Logo Title Text 1")
