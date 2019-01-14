@@ -1,4 +1,7 @@
-## Thank you for visiting my website.
+## Daniel Evans-Yamamoto's homepage
+
+
+### Thank you for visiting my website.
 
 I built this website so that I can present who I am, and what I do in both life and work.<br>
 The message behid this is that I want to become in touch with people I haven't had the chance to meet yet (Or purly make myself known to people who barely know me).<br>
