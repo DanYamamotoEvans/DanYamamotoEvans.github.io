@@ -73,7 +73,7 @@ experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/n
 1. [医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増
 山七海・谷内江 望](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
 2. [バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増
-山七海・**山本-エヴァンス 楠**・谷内江 望](http://www.jba.or.jp/pc/archive/2017/vol75_no1.html)
+山七海・**山本-エヴァンス 楠**・谷内江 望](https://www.jba.or.jp/bi_index/2017/2017_vol75_no1.php)
 
 
 #### Conferences
