@@ -3,7 +3,7 @@
 
 #### Daniel EVANS-YAMAMOTO (Also known as Dan Yamamoto, Daniel Evans, 山本-エヴァンス 楠, 山本 楠)
 
-#### E-mail : 
+#### Contact 
 daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 
