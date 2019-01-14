@@ -8,7 +8,7 @@
 
 
 #### E-mail : 
-daney[at]sfc.keio.ac.jp
+daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 
 #### Education
