@@ -4,6 +4,9 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 
 ![alt text](https://danyamamotoevans.github.io/Welcome/IMG_7743.JPG?raw=true "")
 
+![alt text](https://raw.githubusercontent.com "")
+
+
 ### Likes
 * Good wine :wine_glass:, craft beer :beers:, Sake :sake: 
 * Flat noodles (Phad-kee-mao, Ramen NAGI, Himokawa-udon, and even Lasagna)
