@@ -1,7 +1,7 @@
 # Curriculum Vitae 
 (As of 15th of January, 2019)
 
-# Daniel EVANS-YAMAMOTO
+## Daniel EVANS-YAMAMOTO
 ## Also known as; 山本-エヴァンス　楠, Dan Yamamoto, Daniel Evans
 * ORC ID          :  [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827)
 * Google scholar  :  [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en&oi=ao)
@@ -13,20 +13,20 @@ daney@sfc.keio.ac.jp
 
 
 ## Education
-Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018
-Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - current
+Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018 <br>
+Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - current <br>
 
 ## Professional activities
-Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016
-Research student, [Yachie lab](http://yachie-lab.org), Syntetic biology division, The University of Tokyo Research Centre for Advanced Science and Technology (Japan), 2014- present
-Member, Robotic biology consortium, 2015 - present
+Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
+Research student, [Yachie lab](http://yachie-lab.org), Syntetic biology division, The University of Tokyo Research Centre for Advanced Science and Technology (Japan), 2014- present <br>
+Member, Robotic biology consortium, 2015 - present <br>
 
 ## Honors and Awards
 ### Excellent Graduation Project
-Awarded for the graduation thesis by the Keio University with the title "Development of high-throughput technologies to screen protein interactomes".
+Awarded for the graduation thesis by the Keio University with the title "Development of high-throughput technologies to screen protein interactomes". <br>
 
 ## Fellowships and competetive funds
-* TTCK Fellowship, Keio University (2015- current)
+* TTCK Fellowship, Keio University (2015 - current)
 * Yamagishi Student Project Support Program, Keio University, 2016, 270k yen (Maximum 300k yen)
 * Yamagishi Student Project Support Program, Keio University, 2017, 240k yen (Maximum 300k yen)
 
@@ -57,8 +57,8 @@ experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/n
 山七海・谷内江 望](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
 2. [バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増
 山七海・**山本-エヴァンス 楠**・谷内江 望](http://www.jba.or.jp/pc/archive/2017/vol75_no1.html)
-
 ⋅⋅* Unordered sub-list. 
+
 ### Conferences
 1. “Data analysis of population growth dynamics of barcoded E.coli deletion strains”, _E. coli_ systems biology workshop, 2017, Oral presentation.
 2. “Inter-species interactome screenings with Barcode fusion Genetics”, From Genetic Networks to a cellular wiring diagram
