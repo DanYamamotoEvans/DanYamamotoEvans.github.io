@@ -1,11 +1,7 @@
 # Curriculum Vitae 
 (As of 15th of January, 2019)
 
-#### Daniel EVANS-YAMAMOTO
-#### Also known as; Dan Yamamoto, Daniel Evans, 山本-エヴァンス　楠, 山本　楠
-* ORC ID          :  [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827)
-* Google scholar  :  [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en&oi=ao)
-
+#### Daniel EVANS-YAMAMOTO (Also known as; Dan Yamamoto, Daniel Evans, 山本-エヴァンス　楠, 山本　楠)
 
 #### E-mail : 
 daney [at] sfc.keio.ac.jp (Please replace [at] with @)
@@ -57,6 +53,8 @@ Awarded for the graduation thesis by the Keio University with the title "Develop
 
 ### Professional activities
 
+* ORC ID          :  [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827)
+* Google scholar  :  [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en&oi=ao)
 
 #### Research interests
 Synthetic Biology, Molecular Biology, Systems Biology, Protein interaction Network
