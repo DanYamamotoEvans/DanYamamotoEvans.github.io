@@ -5,10 +5,10 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 ![photo](https://danyamamotoevans.github.io/Welcome/IMG_7743.png)
 
 ### Likes
-* Good wine :wine_glass:, craft beer :beers:, Sake :sake: 
+* Good wine, craft beer, Sake
 * Flat noodles (Phad-kee-mao, Ramen NAGI, Himokawa-udon, and even Lasagna)
 
-* Arts and museums :office:, hot-springs :hotsprings:
+* Arts and museums, hot-springs
 * Darts
 
 ### Dislikes
