@@ -1,7 +1,7 @@
 ## My random blog
 
 ### Jan 2019
-Launched this website :) 
+Launched this website :) Horaay!
 
 
 ## My latest tweets ...
