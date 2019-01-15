@@ -11,4 +11,4 @@ Cheers,<br>
 Dan<br>
 <br>
 P.S.<br>
-My contact is in the CV page :)
+My contact is in the [CV](https://danyamamotoevans.github.io/cv) page :)
