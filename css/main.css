@@ -120,7 +120,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #10457A; }
+    color: #10457A!default; }
   .main-content p {
     margin-bottom: 1em; }
   .main-content code {
