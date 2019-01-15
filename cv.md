@@ -9,7 +9,7 @@ daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 #### Education
 Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018 <br>
-[Systems Biology program, Graduate school of Media and Governace, Keio University (Japan)](http://www.iab.keio.ac.jp/en/index.html), 2018 - current <br>
+Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - current [link](http://www.iab.keio.ac.jp/en/index.html)<br>
 
 
 #### Professional activities
