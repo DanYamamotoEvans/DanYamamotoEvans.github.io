@@ -23,7 +23,7 @@ Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (
 
 
 #### Excellent Graduation Project
-Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by the Keio University (Year of 2018) <br>
+Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
 
 
@@ -57,7 +57,7 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 * Google scholar  :  [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en&oi=ao)
 
 #### Research interests
-Synthetic Biology, Molecular Biology, Systems Biology, Protein interaction Network
+Synthetic Biology, Molecular Biology, Systems Biology, Protein interaction network
 
 
 #### Peer-reveiwed papers
@@ -68,9 +68,8 @@ experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/n
 
 #### Reveiw papers
 1. 医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増
-山七海・谷内江 望 [Find it here](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
-2. バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増
-山七海・**山本-エヴァンス 楠**・谷内江 望
+山七海・谷内江 望 [link](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
+2. バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増山七海・**山本-エヴァンス 楠**・谷内江 望
 
 
 #### Conferences
