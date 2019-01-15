@@ -14,3 +14,18 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 ### Dislikes
 * The humid summer in Tokyo 
 
+
+### Links
+I have been associated with those organizations. <br>
+
+#### @Keio University
+Institute for Advanced Biosciences, Keio University [(Link)](http://www.iab.keio.ac.jp/en/index.html)
+
+#### @University of Tokyo
+Yachie lab, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://yachie-lab.org)
+
+
+Laboratories for Systems Biology and Medicine, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://www.lsbm.org)
+
+#### Collaborators
+Landry lab, Laval University [(Link)](https://landrylab.ibis.ulaval.ca)
