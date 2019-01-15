@@ -32,13 +32,13 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 #### Links
 I have been associated with those organizations. <br>
 
-@Keio University
-Institute for Advanced Biosciences, Keio University [(Link)](http://www.iab.keio.ac.jp/en/index.html)
+@Keio University<br>
+Institute for Advanced Biosciences, Keio University [(Link)](http://www.iab.keio.ac.jp/en/index.html)<br>
 <br><br>
-@University of Tokyo
-Yachie lab, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://yachie-lab.org)
+@University of Tokyo<br>
+Yachie lab, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://yachie-lab.org)<br>
 <br>
-Laboratories for Systems Biology and Medicine, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://www.lsbm.org)
+Laboratories for Systems Biology and Medicine, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://www.lsbm.org)<br>
 <br><br>
-Internships
-Landry lab, Laval University [(Link)](https://landrylab.ibis.ulaval.ca)
+Internships<br>
+Landry lab, Laval University [(Link)](https://landrylab.ibis.ulaval.ca)<br>
