@@ -1,5 +1,5 @@
 ## Curriculum Vitae 
-(As of 15th of January, 2019)
+(As of January 15th, 2019)
 
 #### Daniel EVANS-YAMAMOTO (Also known as Dan Yamamoto, Daniel Evans, 山本-エヴァンス 楠, 山本 楠)
 
