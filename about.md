@@ -40,5 +40,5 @@ Yachie lab, Research Center for Advanced Science and Technology, The University 
 <br>
 Laboratories for Systems Biology and Medicine, Research Center for Advanced Science and Technology, The University of Tokyo [(Link)](http://www.lsbm.org)<br>
 <br><br>
-**Internships**
+**Internships** <br>
 Landry lab, Laval University [(Link)](https://landrylab.ibis.ulaval.ca)<br>
