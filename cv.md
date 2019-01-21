@@ -69,7 +69,7 @@ experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/n
 1. 医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増
 山七海・谷内江 望 [link](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
 2. バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増山七海・**山本-エヴァンス 楠**・谷内江 望
-
+3. 実験医学 別冊あなたのラボにAI×ロボットがやってくる, 124-129 2017年　”AI・LabDroidと交わす言葉をつくりだす” **山本-エヴァンス 楠** & 谷内江 望
 
 #### Conferences
 1. “Data analysis of population growth dynamics of barcoded E.coli deletion strains”, _E. coli_ systems biology workshop, 2017, Oral presentation.
