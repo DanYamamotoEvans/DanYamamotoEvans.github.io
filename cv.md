@@ -12,20 +12,18 @@ Department of Environment and Information Studies, Keio University (Japan), 2014
 Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - current [link](http://www.iab.keio.ac.jp/en/index.html)<br>
 
 
-#### Professional activities
+#### Positions
 Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - present <br>
 Member, Robotic biology consortium, 2015 - present <br>
 Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep 
 
 
-### Honors and Awards
 
+### Honors and Awards
 
 #### Excellent Graduation Project
 Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
-
-
 
 ### Fellowships and competetive funds
 * TTCK Fellowship, Keio University (2015 - current)
