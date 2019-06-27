@@ -1,5 +1,5 @@
 ## Curriculum Vitae 
-(As of April 23rd, 2019)
+(As of June 27th, 2019)
 
 #### Daniel EVANS-YAMAMOTO (Also known as Dan Yamamoto, Daniel Evans, 山本-エヴァンス 楠, 山本 楠)
 
@@ -13,11 +13,13 @@ Systems Biology program, Graduate school of Media and Governace, Keio University
 
 
 #### Positions
-Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
+##### Current 
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - present <br>
-Member, Robotic biology consortium, 2015 - present <br>
-Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep 
 
+##### Former
+Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep 
+Member, Robotic biology consortium, 2015 - 2017 <br>
+Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
 
 
 ### Honors and Awards
@@ -29,11 +31,9 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 * TTCK Fellowship, Keio University (2015 - current)
 * Yamagishi Student Project Support Program, Keio University, 2016, 270k yen (Maximum 300k yen)
 * Yamagishi Student Project Support Program, Keio University, 2017, 240k yen (Maximum 300k yen)
-
-
+* Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240k yen (Maximum 300k yen)
 
 ### Skills
-
 
 #### Molecular biology lab techniques 
 * Basic bacterial and yeast cloning including methods using synthetic DNA barcodes
@@ -42,12 +42,9 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 * High-throughput sequecing facility operation (Illumina MiSeq, Oxford Nanopore minION) 
 * Data anlysis (Mainly in Python scripts, analyzing deep sequencing data on SGE servers. A slice of R/ggplot.) 
 
-
 #### Language(s)
 * Japanese (Mother tonge)
 * English  (Father tonge)
-
-
 
 ### Professional activities
 
@@ -60,17 +57,17 @@ Synthetic Biology, Molecular Biology, Systems Biology, Protein interaction netwo
 
 
 #### Peer-reveiwed papers
+3. **D. Evans-Yamamoto**, N. Takeuchi, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Micro Biology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)
+2. H. Mori, **D. Evans-Yamamoto**, S. Ishuguro, M. Tomita, and N. Yachie., "Fast and global detection of periodic sequence repeats in large genomic resources", (2018) _Nucleic Acid Research_ **47**(2):e8 [Doi: 10.1093/nar/gky890](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky890/5124599) 
 1. N. Yachie, Robotic Biology Consortium **(D. Yamamoto-Evans was involved in the IT group)**, and T. Natsume., “Robotic Crowd Biology: LabDroids accelerates life science
 experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/nbt.3758](https://www.nature.com/articles/nbt.3758)
-2. H. Mori, **D. Evans-Yamamoto**, S. Ishuguro, M. Tomita, and N. Yachie., "Fast and global detection of periodic sequence repeats in large genomic resources", (2018) _Nucleic Acid Research_ **47**(2):e8 [Doi: 10.1093/nar/gky890](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky890/5124599) 
-3. **D. Evans-Yamamoto**, N. Takeuchi, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Micro Biology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)
 
 
 #### Reveiw papers
+3. 実験医学 別冊あなたのラボにAI×ロボットがやってくる, 124-129 2017年　”AI・LabDroidと交わす言葉をつくりだす” **山本-エヴァンス 楠** & 谷内江 望
+2. バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増山七海・**山本-エヴァンス 楠**・谷内江 望
 1. 医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増
 山七海・谷内江 望 [link](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
-2. バイオインダストリー誌　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増山七海・**山本-エヴァンス 楠**・谷内江 望
-3. 実験医学 別冊あなたのラボにAI×ロボットがやってくる, 124-129 2017年　”AI・LabDroidと交わす言葉をつくりだす” **山本-エヴァンス 楠** & 谷内江 望
 
 #### Preprints
 
