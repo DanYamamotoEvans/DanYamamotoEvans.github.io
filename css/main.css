@@ -24,7 +24,18 @@ section {  float:left;
    margin: 0 1.5%;
   width: 63%;} 
 
-
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
 
 
 .btn {
