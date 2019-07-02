@@ -93,6 +93,7 @@ aside { float:right; }
       font-size: 1rem; } }
 
 .main-content {
+  float:left;
   word-wrap: break-word; }
   .main-content :first-child {
     margin-top: 0; }
