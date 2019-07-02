@@ -15,15 +15,6 @@ a {
   a:hover {
     text-decoration: underline; }
 
-
-aside { float:right; 
- margin: 0 1.5%;
-  width: 30%;}
-
-section {  float:left;
-   margin: 0 1.5%;
-  width: 63%;} 
-
 .group:before,
 .group:after {
   content: "";
@@ -36,6 +27,16 @@ section {  float:left;
   clear: both;
   *zoom: 1;
 }
+
+section {  float:left;
+   margin: 0 1.5%;
+  width: 63%;} 
+
+aside { float:right; 
+ margin: 0 1.5%;
+  width: 30%;}
+
+
 
 
 .btn {
