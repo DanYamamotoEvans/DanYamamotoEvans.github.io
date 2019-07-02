@@ -14,7 +14,18 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-aside { float:right; }
+
+
+aside { float:right; 
+ margin: 0 1.5%;
+  width: 30%;}
+
+section {  float:left;
+   margin: 0 1.5%;
+  width: 63%;} 
+
+
+
 
 .btn {
   display: inline-block;
@@ -92,8 +103,10 @@ aside { float:right; }
     .project-tagline {
       font-size: 1rem; } }
 
+
+
+
 .main-content {
-  float:left;
   word-wrap: break-word; }
   .main-content :first-child {
     margin-top: 0; }
