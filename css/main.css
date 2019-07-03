@@ -241,7 +241,9 @@ a {
     border: 0; }
 
 .site-footer{
-  margin-left: auto;
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
