@@ -17,7 +17,7 @@ Systems Biology program, Graduate school of Media and Governace, Keio University
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - present <br>
 
 ##### Former
-Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep 
+Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep <br>
 Member, Robotic biology consortium, 2015 - 2017 <br>
 Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
 
