@@ -25,10 +25,15 @@ None at the moment.
 #### Poster presentations
 
 
+6. **Daniel Evans-Yamamoto**, Piyush Nanda, François Rouleau, Koji Makanae, Hotoshi Matsuo, Motoaki Seki, Alexandre K. Dube, Diana Ascencio, Masaru Tomita, Hiroyuki Aburatani, Cristian R. Landry and Nozomu Yachie. **"Pooled matrix screen of protein interactomes using Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA)"**, International Conference on Systems Biology 2019 (ICSB 2019), Okinawa, Japan. Planned on 2019/11/4
+
+5. **Daniel Evans-Yamamoto**, Piyush Nanda, Hitoshi Matsuo, Motoaki Seki, Alexandre K. Dube, Diana Ascencio, Masaru Tomita, Hiroyuki Aburatani, Cristian R. Landry and Nozomu Yachie, **"Development of Barcode Fusion Genetics-DHFR PCA"**, 19th Symposium on Life Siences of the University of Tokyo, Tokyo, Japan. 2019/4/20
+
+4. **Daniel Evans-Yamamoto**, Piyush Nanda, Hitoshi Matsuo, Motoaki Seki, Alexandre K. Dube, Diana Ascencio, Masaru Tomita, Hiroyuki Aburatani, Cristian R. Landry and Nozomu Yachie, **"Development of Barcode Fusion Genetics-DHFR PCA"**, 13th LSBM Symposium, Hakone, Japan. 2019/4/3
+
 3. **Daniel Evans-Yamamoto**, Piyush Nanda, Hitoshi Matsuo, Motoaki Seki, Alexandre K. Dube, Masaru Tomita, Hiroyuki Aburatani, Cristian R. Landry and Nozomu Yachie, **"Development of Barcode Fusion Genetics-DHFR PCA"** , IBIS research day, Quebec city, Canada. 2018/8/23 
 
-
-2. **Daniel Evans-Yamamoto**, Masaru Tomita and Nozomu Yachie. **Development of high-throughput technologies to screen protein interactomes**, 12th LSBM Symposium, Fuefuku, Japan. 2018/3/8 
+2. **Daniel Evans-Yamamoto**, Masaru Tomita and Nozomu Yachie. **"Development of high-throughput technologies to screen protein interactomes"**, 12th LSBM Symposium, Fuefuku, Japan. 2018/3/8 
 
 1. **Daniel Evans-Yamamoto**, Hitoshi Matsuo, Cristian R Landry, Minoru Yoshida, Masaru Tomita and Nozomu Yachie. **"Screening inter-species protein interactomes using Barcode Fusion Genetics"**, From Genetic Networks to a Cellular Wiring Diagram, Tokyo, Japan. 2017/4/26
 
