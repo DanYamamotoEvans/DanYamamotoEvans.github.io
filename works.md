@@ -2,7 +2,7 @@
 
 #### Peer-reveiwed papers
 
-**4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, _**D. Evans-Yamamoto**_, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
+**4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, __**D. Evans-Yamamoto**__, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
 
 **3.**  **D. Evans-Yamamoto¶**, N. Takeuchi¶, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Micro Biology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)(¶ equal contribution)
 
