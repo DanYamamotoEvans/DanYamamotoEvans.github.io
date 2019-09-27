@@ -2,7 +2,7 @@
 
 #### Peer-reveiwed papers
 
-**4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, __**D. Evans-Yamamoto**__, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
+**4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, **D. Evans-Yamamoto**, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
 
 **3.**  **D. Evans-Yamamoto¶**, N. Takeuchi¶, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Micro Biology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)(¶ equal contribution)
 
@@ -17,15 +17,13 @@ experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/n
 
 **2.** バイオサイエンスとインダストリー　2017年 VOL.75 NO.1　解説記事　"タンパク質間相互作用ネットワークの超高速マッピング" 増山七海・**山本-エヴァンス 楠**・谷内江 望
 
-**1.** 医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増
-山七海・谷内江 望 [link](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
+**1.** 医学のあゆみ　259巻8号　2016年11月　p.832-838 論文詳細　"バーコードフュージョン遺伝学" **山本-エヴァンス 楠**・増山七海・谷内江 望 [link](https://www.ishiyaku.co.jp/magazines/ayumi/AyumiArticleDetail.aspx?BC=925908&AC=16762)
 
 #### Preprints
 None at the moment.
 
 
 #### Poster presentations
-
 
 **6.** **Daniel Evans-Yamamoto**, Piyush Nanda, François Rouleau, Koji Makanae, Hotoshi Matsuo, Motoaki Seki, Alexandre K. Dube, Diana Ascencio, Masaru Tomita, Hiroyuki Aburatani, Cristian R. Landry and Nozomu Yachie. **"Pooled matrix screen of protein interactomes using Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA)"**, International Conference on Systems Biology 2019 (ICSB 2019), Okinawa, Japan. Planned on 2019/11/4
 
