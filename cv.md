@@ -29,6 +29,8 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 
 ### Fellowships and competetive funds
 * TTCK Fellowship, Keio University (2015 - current)
+* Research fellowship for Young Scientist (DC1), JSPS  (Starting 2020)
+
 * Yamagishi Student Project Support Program, Keio University, 2016, 270k yen (Maximum 300k yen)
 * Yamagishi Student Project Support Program, Keio University, 2017, 240k yen (Maximum 300k yen)
 * Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240k yen (Maximum 300k yen)
