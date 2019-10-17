@@ -2,12 +2,8 @@
 
 
 ORCiD : [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827) 
+
 Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en)
-
-
-
-
-
 
 
 
