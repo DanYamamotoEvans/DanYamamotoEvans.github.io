@@ -1,5 +1,16 @@
 ## Works
 
+
+ORCiD : [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827) 
+Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en)
+
+
+
+
+
+
+
+
 #### Peer-reveiwed papers
 
 **4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, **D. Evans-Yamamoto**, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
