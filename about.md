@@ -1,8 +1,8 @@
 ## About me
 
 Born a hybrid of Japan and New Zealand, I could experience growing up both the busiest and relaxing places in the world. Tokyo is where I was mostly raised, playing competitive baseball for 10 years until high school. In the year 2008, I spent 8 months in Feilding New Zealand,staying with my grandparents. That is where I discoverd the fasninating sport rugby (Go All Blacks!!). <br>
-  Since 2014, I have been studying in the feild of molecular biology on protien-protein interactions and high-throughput methods surrounding them. I have and still am working in this area under supervision of Dr. [Nozomu Yachie](http://yachie-lab.org/index.php?nozomuyachie). Please read about our projects and scientific aims [here](http://yachie-lab.org/index.php?research). I am pursuing to Ph.D. course next year in Yachie lab. After obtaining my degree, I am planning for post doctoral research abroad (2023? Long way to go!). 
-
+  Since 2014, I have been studying in the feild of molecular biology on protien-protein interactions and high-throughput methods surrounding them. I have and still am working in this area under supervision of Dr. [Nozomu Yachie](http://yachie-lab.org/index.php?nozomuyachie). Please read about our projects and scientific aims [here](http://yachie-lab.org/index.php?research). I am pursuing to Ph.D. course next year in Yachie lab, as we also move to the University of British Columbia (UBC)'s School of Biomedical Engineering (SBME) in Vancouver, Canada from July 2020. I am looking forward for the great opportunity to work in a new & challenging environment!
+  
 
 ![photo](https://danyamamotoevans.github.io/materials/IMG_7743.png)
 
@@ -17,7 +17,7 @@ Born a hybrid of Japan and New Zealand, I could experience growing up both the b
 * The humid summer in Tokyo 
 
 
-<br><br><br><br><br><br><br><br>
+<br><br>
 
 
 
