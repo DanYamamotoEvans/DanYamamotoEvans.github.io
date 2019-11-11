@@ -1,6 +1,4 @@
-## My random blog
-
-### Topics and backnumbers
+## My random blog (Topics and backnumbers)
 
 ### Science related
 
@@ -14,7 +12,7 @@
 
 ### Casual
 
-#### Cooking 
+#### Food & Cooking 
 
 
 
