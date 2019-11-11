@@ -1,6 +1,21 @@
 ## My random blog
 
-### Jan 2019
-Launched this website :) Horaay!
+### Topics and backnumbers
+
+### Science related
+
+#### Coding 
 
 
+#### Molecular biology
+
+
+
+
+### Casual
+
+#### Cooking 
+
+
+
+#### Life tips
