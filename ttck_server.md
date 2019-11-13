@@ -10,5 +10,4 @@ qsub -I -l nodes=1:ppn=32
 
 ```unix
 qselect -u <username> | xargs qdel
-
 ```
