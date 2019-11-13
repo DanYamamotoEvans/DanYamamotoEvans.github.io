@@ -32,11 +32,11 @@ TBA
   
   @Okinawa
   * [Jam steak house](http://www.jam-groups.com/okinawa.html)
-  ```
-  Must go when you're going to OIST.
-  Reasonable Teppan-yaki with great taste and athmospher.
-  They don't take reservation on that day, so reserve in advance.
-  ```
+   ```
+    Must go when you're going to OIST.
+    Reasonable Teppan-yaki with great taste and athmospher.
+    They don't take reservation on that day, so reserve in advance.
+    ```
  
 #### Life tips
 
