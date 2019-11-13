@@ -23,20 +23,21 @@ TBA
   
   
   **FAV restraunts**
-  @Tokyo
-  * [Baan Kirao Shimokitazawa](http://www.baankirao.com/shimokita/)
-    ```
-    Reasonable, fast and super delicious.
-    Try the soft-shell crab curry.
-    ```
+    
+   @Tokyo
+    * [Baan Kirao Shimokitazawa](http://www.baankirao.com/shimokita/)
+      ```
+      Reasonable, fast and super delicious.
+      Try the soft-shell crab curry.
+      ```
   
-  @Okinawa
-  * [Jam steak house](http://www.jam-groups.com/okinawa.html)
-   ```
-    Must go when you're going to OIST.
-    Reasonable Teppan-yaki with great taste and athmospher.
-    They don't take reservation on that day, so reserve in advance.
-    ```
+   @Okinawa
+    * [Jam steak house](http://www.jam-groups.com/okinawa.html)
+      ```
+      Must go when you're going to OIST.
+      Reasonable Teppan-yaki with great taste and athmospher.
+      They don't take reservation on that day, so reserve in advance.
+      ```
  
 #### Life tips
 
