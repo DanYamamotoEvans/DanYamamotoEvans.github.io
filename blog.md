@@ -15,29 +15,43 @@ TBA
 ### Casual
 
 #### Food & Cooking 
-  **Drinking food**
-  * [Tomato/ginger/sesame oil](https://danyamamotoevans.github.io/blog/cooking/tomato_ginger_sesameoil)
 
-  **Meals**
-  * [Balsamic vinegar Chciken](https://danyamamotoevans.github.io/blog/cooking/Balsamic_Chicken_grill)
+**Drinking food**
+* [Tomato/ginger/sesame oil](https://danyamamotoevans.github.io/blog/cooking/tomato_ginger_sesameoil)
+
+**Meals**
+* [Balsamic vinegar Chciken](https://danyamamotoevans.github.io/blog/cooking/Balsamic_Chicken_grill)
   
   
-  **FAV restraunts**
+**FAV restraunts**
     
-   @Tokyo
-    * [Baan Kirao Shimokitazawa](http://www.baankirao.com/shimokita/)
-      ```
-      Reasonable, fast and super delicious.
-      Try the soft-shell crab curry.
-      ```
-  
-   @Okinawa
-    * [Jam steak house](http://www.jam-groups.com/okinawa.html)
-      ```
-      Must go when you're going to OIST.
-      Reasonable Teppan-yaki with great taste and athmospher.
-      They don't take reservation on that day, so reserve in advance.
-      ```
+@Tokyo
+
+* [Baan Kirao Shimokitazawa](http://www.baankirao.com/shimokita/)
+
+```
+Reasonable, fast and super delicious.
+Try the soft-shell crab curry.
+```
+
+* [Koshinji](https://tabelog.com/tokyo/A1318/A131811/13190642/dtlphotolst/1/smp2/)
+
+```
+Good price, super delicious.
+Try the Gyu-suji negi ponzu (stewed beef and green onions) and thier special dish Koshinji-Yaki/ Seto-uchi Koshinji-yaki.
+The lemon tabasco that they serve is also nice.
+```
+
+
+@Okinawa
+
+* [Jam steak house](http://www.jam-groups.com/okinawa.html)
+ 
+ ```
+ Must go when you're going to OIST.
+ Reasonable Teppan-yaki with great taste and athmospher.
+ They don't take reservation on that day, so reserve in advance.
+ ```
  
 #### Life tips
 
