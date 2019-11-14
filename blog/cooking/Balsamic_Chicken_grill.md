@@ -10,8 +10,8 @@ The remaning sauce goes well with bread or as a salad dressing too.
 ### Materials
 
 * 150 - 200 g  of Chicken breasts (any thing will do)
-*        50 mL of Balsamic vinegar
-*         5 mL of Olive oil
+* 50 mL of Balsamic vinegar
+* 5 mL of Olive oil
 
 ##### Optional 
 
@@ -31,10 +31,10 @@ The remaning sauce goes well with bread or as a salad dressing too.
 ```
 
 1. Prepare sauce in a bowl by mixing the following;
-  1. 50 mL of Balsamic vinegar
-  2. 5 mL of Olive oil
-  3. Minced garlic
-  4. Salt & pepper / red pepper
+    1. 50 mL of Balsamic vinegar
+    2. 5 mL of Olive oil
+    3. Minced garlic
+    4. Salt & pepper / red pepper
 
 2. Add the Chicken (and veges) to the sauce, and mix well.
 
