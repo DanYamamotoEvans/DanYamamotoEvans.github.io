@@ -25,7 +25,7 @@ TBA
   
 **FAV restraunts**
     
-@Tokyo
+**@Tokyo**
 
 * [Baan Kirao Shimokitazawa](http://www.baankirao.com/shimokita/)
 
@@ -43,7 +43,7 @@ The lemon tabasco that they serve is also nice.
 ```
 
 
-@Okinawa
+**@Okinawa**
 
 * [Jam steak house](http://www.jam-groups.com/okinawa.html)
  
