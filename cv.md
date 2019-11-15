@@ -1,6 +1,9 @@
 ## Curriculum Vitae 
 (As of June 27th, 2019)
 
+[PDF version](https://danyamamotoevans.github.io/CV_2019.pdf)
+
+
 #### Daniel EVANS-YAMAMOTO (Also known as Dan Yamamoto, Daniel Evans, 山本-エヴァンス 楠, 山本 楠)
 
 #### Contact 
