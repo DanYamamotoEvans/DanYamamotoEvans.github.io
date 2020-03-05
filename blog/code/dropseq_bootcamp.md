@@ -137,13 +137,13 @@ TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FI
 #### 12.ビーズのエラー（置換）を修正 
 
 ```unix
-DetectBeadSubstitutionErrors I= star_gene_exon_tagged.bam O=my_clean_substitution.bam OUTPUT_REPORT=my_clean.substitution_report.txt
+DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt -TMP_DIR /home/daney/projects/Drop_seq/tmp
 ```
 
 #### 13. ビーズのエラー（合成）を修正
 
 ```unix
-DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC
 ```
 
 #### 14. 発現量等の表を作成
