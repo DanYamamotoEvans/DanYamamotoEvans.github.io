@@ -1,7 +1,8 @@
-## Command for Drop-seq analysis using TTCK server (King)
+## Commands for Drop-seq analysis using TTCK server (King)
 
 
 ### Dropseq-toolsでの処理の流れ
+
 fastqファイルから細胞ごとの遺伝子発現量のテーブル(DGE : degital gene expression file)を作成する。
 - Cell barcodeとUMIの抜き出し
 - リードのトリミング
@@ -10,10 +11,10 @@ fastqファイルから細胞ごとの遺伝子発現量のテーブル(DGE : de
 - 遺伝子情報の付与
 - バーコードの修正
 - 細胞の抽出
+- 種（mouse, human)ごとの細胞数のカウント
 
 
-
-
+その後、Seuratを用いて発現量の表からクラスタリングや各クラスターを代表する遺伝子を探す。
 
 
 
@@ -39,6 +40,29 @@ ssh king
 Drop-seqの解析ツールはあらかじめ下記のディレクトリにあります。
 ```unix
 ```
+
+#### Make project directory
+```unix
+#ディレクトリを作成する
+mkdir project
+mkdir project/dropseq_bootcamp
+
+#作成したディレクトリに移動する
+cd project/dropseq_bootcamp
+
+#現在の位置を確認する
+pwd
+
+# /home/あなたのusername/project/dropseq_bootcamp のように出てくればok。
+
+#今後は基本的にこのディレクトリで作業します。
+```
+
+
+
+
+
+
 
 
 
