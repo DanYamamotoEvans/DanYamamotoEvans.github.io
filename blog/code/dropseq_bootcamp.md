@@ -113,7 +113,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 #### 8. STARでアライメント
 
 ```unix
-java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SamToFastq INPUT=work.cb.UMI.filtered.trimS.trimA.bam FASTQ=work.cb.UMI.filtered.trimS.trimA.fastq
+STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
 ```
 
 #### 9. アライメント結果をソート
