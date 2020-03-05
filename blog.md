@@ -6,6 +6,11 @@
   1. [ggplot codes](https://danyamamotoevans.github.io/blog/code/ggplot)
   2. [TTCK server](https://danyamamotoevans.github.io/blog/code/ttck_server)
 
+Notes
+  1. [2020 Keio SFC Spring project Analysis part (Drop-seq bootcamp)](https://danyamamotoevans.github.io/blog/code/dropseq_bootcamp)
+
+
+
 
 #### Molecular biology
 
