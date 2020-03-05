@@ -15,8 +15,14 @@ ssh USER_NAME@cs0.bioinfo.ttck.keio.ac.jp
 ssh king
 ```
 
+シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
 ```unix
 ```
+
+Drop-seqの解析ツールはあらかじめ下記のディレクトリにあります。
+```unix
+```
+
 
 
 #### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) !!TEST!!
