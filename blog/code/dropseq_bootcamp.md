@@ -107,6 +107,98 @@ PolyATrimmer INPUT=work.cb.UMI.filtered.trimS.bam OUTPUT=work.cb.UMI.filtered.tr
 #### 7. STARでアライメントするためファイル形式を変換(bam to fastq)
 
 ```unix
-java -jar for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SamToFastq INPUT=work.cb.UMI.filtered.trimS.trimA.bam FASTQ=work.cb.UMI.filtered.trimS.trimA.fastq
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SamToFastq INPUT=work.cb.UMI.filtered.trimS.trimA.bam FASTQ=work.cb.UMI.filtered.trimS.trimA.fastq
 ```
 
+#### 8. STARでアライメント
+
+```unix
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SamToFastq INPUT=work.cb.UMI.filtered.trimS.trimA.bam FASTQ=work.cb.UMI.filtered.trimS.trimA.fastq
+```
+
+#### 9. アライメント結果をソート
+
+```unix
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SortSam I=starAligned.out.sam O=aligned.sorted.bam SO=queryname
+```
+
+#### 10. Cell barcode, UMI情報と統合
+
+```unix
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar MergeBamAlignment ALIGNED_BAM=aligned.sorted.bam UNMAPPED_BAM=work.cb.UMI.filtered.trimS.trimA.bam OUTPUT=merged.bam REFERENCE_SEQUENCE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genome.fa INCLUDE_SECONDARY_ALIGNMENTS=false PAIRED_RUN=false
+```
+
+#### 11. gene情報を付加
+
+```unix
+TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FILE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genes.refFlat
+```
+
+#### 12.ビーズのエラー（置換）を修正 
+
+```unix
+DetectBeadSubstitutionErrors I= star_gene_exon_tagged.bam O=my_clean_substitution.bam OUTPUT_REPORT=my_clean.substitution_report.txt
+```
+
+#### 13. ビーズのエラー（合成）を修正
+
+```unix
+DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC
+```
+
+#### 14. 発現量等の表を作成
+
+```unix
+DigitalExpression I= my_clean.bam O= my_clean.dge.txt.gz SUMMARY= my_clean.dge.summary.txt NUM_CORE_BARCODES=XXXX
+#my.synthesis_stats.summary.txtに記載されているNO_ERRORの数を参照して、抜き出すバーコード数（NUM_CORE_BARCODESで指定する値）を決定
+
+```
+
+#### 15. Read数の変化から発現している細胞数を見積もる
+
+```unix
+# knee pointの出し方の一例（自作スクリプト使用）
+perl convert_detection_knee_point_data.pl my_clean.dge.summary.txt
+```
+
+#### 16. 細胞として抽出したバーコードの発現量表を作成
+
+```unix
+DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
+#NUM_CORE_BARCODESにKnee pointを指定
+```
+
+#### 17. 細胞を種ごとにカウントする(1)
+
+```unix
+FilterBam INPUT=my_clean.bam OUTPUT=human.bam REF_SOFT_MATCHED_RETAINED=hg19
+
+FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
+```
+
+#### 17. 細胞を種ごとにカウントする(2)
+
+```unix
+DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
+#NUM_CORE_BARCODESにKnee pointを指定
+```
+
+#### 16. 細胞として抽出したバーコードの発現量表を作成
+
+細胞として抽出されたバーコードのリストを作成
+```unix
+awk -F "\t" '{print $1}' my_clean.dge.extracted.summary.txt > barcode_list.txt
+#headerなどはいらないのでbarcode_list.txtファイル中から削除
+```
+種ごとに遺伝子発現量のテーブルを作成
+```unix
+DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt
+
+DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt
+```
+
+
+#### 17. 細胞を種ごとにカウントする(3)
+
+```unix
+```
