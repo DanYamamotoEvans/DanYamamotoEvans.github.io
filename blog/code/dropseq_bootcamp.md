@@ -35,10 +35,12 @@ ssh king
 
 シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
 ```unix
+/home/daney/projects/Drop_seq/data
 ```
 
 Drop-seqの解析ツールはあらかじめ下記のディレクトリにあります。
 ```unix
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp
 ```
 
 #### Make project directory
@@ -66,8 +68,9 @@ pwd
 
 ### Drop-seq toolsでデータを処理する
 
-#### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) !!TEST!!
+#### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) !!TEST->ok!!
 ```unix
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar  FastqToSam F1=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R1_001.fastq  F2=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R2_001.fastq  O=work.bam SM=example
 ```
 
 #### 2. Cell barcodeを抜き出してタグ付け !!TEST!!
