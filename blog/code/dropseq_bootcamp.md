@@ -36,15 +36,19 @@ ssh king
 qsub -I -l nodes=1:ppn=32
 ```
 
+
 シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
 ```unix
 /home/daney/projects/Drop_seq/data
 ```
 
+
 Drop-seqの解析ツールはあらかじめ下記のディレクトリにあります。
 ```unix
 /home/daney/projects/Drop_seq/for_dropseq_bootcamp
 ```
+
+
 
 #### Make project directory
 ```unix
@@ -67,8 +71,6 @@ pwd
 
 
 
-
-
 ### Drop-seq toolsでデータを処理する
 
 #### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) !!TEST->ok!!
@@ -76,25 +78,45 @@ pwd
 java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar  FastqToSam F1=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R1_001.fastq  F2=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R2_001.fastq  O=work.bam SM=example
 ```
 
+
+
+
+
 #### 2. Cell barcodeを抜き出してタグ付け !!TEST!!
 ```unix
 TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb.bam_summary.txt BASE_RANGE=1-12 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=FALSE TAG_NAME=XC NUM_BASES_BELOW_QUALITY=1
 ```
+
+
+
+
 
 #### 3. UMIを抜き出してタグ付け !!TEST!!
 ```unix
 TagBamWithReadSequenceExtended INPUT=work.cb.bam OUTPUT=work.cb.UMI.bam SUMMARY=work.cb.UMI.bam_summary.txt BASE_RANGE=13-20 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=TRUE TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1
 ```
 
+
+
+
+
 #### 4. クオリティが低いリードをフィルタリング !!TEST!!
 ```unix
 FilterBam TAG_REJECT=XQ INPUT=work.cb.UMI.bam OUTPUT=work.cb.UMI.filtered.bam
 ```
 
+
+
+
+
 #### 5. SMART adapter 配列の除去（Start site trimming) !!TEST!!
 ```unix
 TrimStartingSequence INPUT=work.cb.UMI.filtered.bam OUTPUT=work.cb.UMI.filtered.trimS.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS_report.txt SEQUENCE= AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5
 ```
+
+
+
+
 
 
 #### 6. Poly Aをトリミング !!TEST!!
@@ -104,11 +126,19 @@ PolyATrimmer INPUT=work.cb.UMI.filtered.trimS.bam OUTPUT=work.cb.UMI.filtered.tr
 
 
 
+
+
+
+
 #### 7. STARでアライメントするためファイル形式を変換(bam to fastq)
 
 ```unix
 java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SamToFastq INPUT=work.cb.UMI.filtered.trimS.trimA.bam FASTQ=work.cb.UMI.filtered.trimS.trimA.fastq
 ```
+
+
+
+
 
 #### 8. STARでアライメント
 
@@ -116,11 +146,19 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
 ```
 
+
+
+
+
 #### 9. アライメント結果をソート
 
 ```unix
 java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar SortSam I=starAligned.out.sam O=aligned.sorted.bam SO=queryname
 ```
+
+
+
+
 
 #### 10. Cell barcode, UMI情報と統合
 
@@ -128,23 +166,42 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar MergeBamAlignment ALIGNED_BAM=aligned.sorted.bam UNMAPPED_BAM=work.cb.UMI.filtered.trimS.trimA.bam OUTPUT=merged.bam REFERENCE_SEQUENCE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genome.fa INCLUDE_SECONDARY_ALIGNMENTS=false PAIRED_RUN=false
 ```
 
+
+
+
+
 #### 11. gene情報を付加
 
 ```unix
 TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FILE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genes.refFlat
 ```
 
+
+
+
+
 #### 12.ビーズのエラー（置換）を修正 
 
 ```unix
-DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt -TMP_DIR /home/daney/projects/Drop_seq/tmp
+DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 ```
+
+
+
+
 
 #### 13. ビーズのエラー（合成）を修正
 
 ```unix
-java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC
+DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC TMP_DIR= /home/daney/projects/Drop_seq/tmp
+
+# my.synthesis_stats.summary.txtの中身を確認する
+less my.synthesis_stats.summary.txt
 ```
+
+
+
+
 
 #### 14. 発現量等の表を作成
 
@@ -154,12 +211,21 @@ DigitalExpression I= my_clean.bam O= my_clean.dge.txt.gz SUMMARY= my_clean.dge.s
 
 ```
 
+
+
+
+
 #### 15. Read数の変化から発現している細胞数を見積もる
 
 ```unix
 # knee pointの出し方の一例（自作スクリプト使用）
-perl convert_detection_knee_point_data.pl my_clean.dge.summary.txt
+perl /home/daney/projects/Drop_seq/for_dropseq_bootcamp/convert_for_detect_knee_point.pl my_clean.dge.summary.txt
+python detect_knee_point.py
 ```
+
+
+
+
 
 #### 16. 細胞として抽出したバーコードの発現量表を作成
 
@@ -167,6 +233,10 @@ perl convert_detection_knee_point_data.pl my_clean.dge.summary.txt
 DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
+
+
+
+
 
 #### 17. 細胞を種ごとにカウントする(1)
 
@@ -176,12 +246,20 @@ FilterBam INPUT=my_clean.bam OUTPUT=human.bam REF_SOFT_MATCHED_RETAINED=hg19
 FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
 ```
 
+
+
+
+
 #### 17. 細胞を種ごとにカウントする(2)
 
 ```unix
 DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
+
+
+
+
 
 #### 16. 細胞として抽出したバーコードの発現量表を作成
 
@@ -198,7 +276,15 @@ DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt C
 ```
 
 
+
+
+
+
 #### 17. 細胞を種ごとにカウントする(3)
 
 ```unix
 ```
+
+
+
+
