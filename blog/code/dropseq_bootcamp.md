@@ -78,6 +78,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 
 #### 2. Cell barcodeを抜き出してタグ付け !!TEST!!
 ```unix
+TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb.bam_summary.txt BASE_RANGE=1-12 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=FALSE TAG_NAME=XC NUM_BASES_BELOW_QUALITY=1
 ```
 
 #### 3. UMIを抜き出してタグ付け !!TEST!!
