@@ -31,6 +31,9 @@ ssh USER_NAME@cs0.bioinfo.ttck.keio.ac.jp
 
 ```unix
 ssh king
+
+#Login to node
+qsub -I -l nodes=1:ppn=32
 ```
 
 シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
