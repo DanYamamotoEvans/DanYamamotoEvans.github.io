@@ -83,14 +83,17 @@ TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb
 
 #### 3. UMIを抜き出してタグ付け !!TEST!!
 ```unix
+TagBamWithReadSequenceExtended INPUT=work.cb.bam OUTPUT=work.cb.UMI.bam SUMMARY=work.cb.UMI.bam_summary.txt BASE_RANGE=13-20 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=TRUE TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1
 ```
 
 #### 4. クオリティが低いリードをフィルタリング !!TEST!!
 ```unix
+FilterBam TAG_REJECT=XQ INPUT=work.cb.UMI.bam OUTPUT=work.cb.UMI.filtered.bam
 ```
 
 #### 5. SMART adapter 配列の除去（Start site trimming) !!TEST!!
 ```unix
+TrimStartingSequence INPUT=work.cb.UMI.filtered.bam OUTPUT=work.cb.UMI.filtered.trimS.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS_report.txt SEQUENCE= AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5
 ```
 
 
