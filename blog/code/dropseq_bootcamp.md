@@ -1,6 +1,23 @@
 ## Command for Drop-seq analysis using TTCK server (King)
 
 
+### Dropseq-toolsでの処理の流れ
+fastqファイルから細胞ごとの遺伝子発現量のテーブル(DGE : degital gene expression file)を作成する。
+- Cell barcodeとUMIの抜き出し
+- リードのトリミング
+- ゲノムへのマッピング(STAR)
+- マッピング結果にバーコード情報を付与
+- 遺伝子情報の付与
+- バーコードの修正
+- 細胞の抽出
+
+
+
+
+
+
+
+
 ### Preparation
 
 #### Login to TTCK server
