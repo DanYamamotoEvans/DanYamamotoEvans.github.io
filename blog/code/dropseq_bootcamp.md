@@ -253,7 +253,7 @@ FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
 #### 17. 細胞を種ごとにカウントする(2)
 
 ```unix
-DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
+DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
 
@@ -270,9 +270,9 @@ awk -F "\t" '{print $1}' my_clean.dge.extracted.summary.txt > barcode_list.txt
 ```
 種ごとに遺伝子発現量のテーブルを作成
 ```unix
-DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt
+DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 
-DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt
+DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 ```
 
 
@@ -283,6 +283,22 @@ DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt C
 #### 17. 細胞を種ごとにカウントする(3)
 
 ```unix
+#まずはファイルの位置を確認します
+pwd
+
+
+#次に　Command + T を押し、新しいタブを開いてください。
+#以下のようにDesktopに移動します。
+cd Desktop
+
+#次にDropseq_bootcampというディレクトリを作ります
+mkdir Dropseq_bootcamp
+
+#いま作成したディレクトリに入ります
+cd Dropseq_bootcamp
+
+#先ほどのサーバー上の位置から、ファイルをダウンロードします。
+scp [ユーザー名]@[先ほどのpwdで得られたパス/*.txt] .
 ```
 
 
