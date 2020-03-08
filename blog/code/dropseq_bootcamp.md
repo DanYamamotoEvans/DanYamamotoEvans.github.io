@@ -151,7 +151,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 #### 8. STARでアライメント
 
 ```unix
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR-2.7.3a/source/STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
 ```
 
 
