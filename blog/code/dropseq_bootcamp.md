@@ -208,6 +208,10 @@ mkdir tmp
 
 # my.synthesis_stats.summary.txtの中身を確認する
 less my.synthesis_stats.summary.txt
+
+#my.synthesis_stats.summary.txtに記載されているNO_ERRORの数を参照して、メモする。次のステップで値を使います。
+
+
 ```
 
 
@@ -232,6 +236,8 @@ less my.synthesis_stats.summary.txt
 # knee pointの出し方の一例（自作スクリプト使用）
 perl /home/daney/projects/Drop_seq/for_dropseq_bootcamp/convert_for_detect_knee_point.pl my_clean.dge.summary.txt
 python detect_knee_point.py
+
+#次のステップで使用するknee pointの値が出力されるので、メモする。
 ```
 
 
