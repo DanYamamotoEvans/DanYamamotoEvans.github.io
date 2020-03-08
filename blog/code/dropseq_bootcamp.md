@@ -235,7 +235,7 @@ less my.synthesis_stats.summary.txt
 ```unix
 # knee pointの出し方の一例（自作スクリプト使用）
 perl /home/daney/projects/Drop_seq/for_dropseq_bootcamp/convert_for_detect_knee_point.pl my_clean.dge.summary.txt
-python /home/daney/projects/Drop_seq/for_dropseq_bootcamp/detect_knee_point.py
+python /home/daney/projects/Drop_seq/for_dropseq_bootcamp/detect_knee_point.py for_detect_knee_x.txt for_detect_knee_y.txt           
 
 #次のステップで使用するknee pointの値が出力されるので、メモする。
 ```
