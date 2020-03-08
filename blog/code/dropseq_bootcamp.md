@@ -39,11 +39,7 @@ qsub -I -l nodes=1:ppn=32
 
 シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
 ```unix
-/home/daney/projects/Drop_seq/data
-
-
-
-
+/home/daney/projects/Drop_seq/data/20200308MicroMiSeq
 ```
 
 
@@ -66,18 +62,17 @@ cd project/dropseq_bootcamp
 
 #現在の位置を確認する
 pwd
+# /home/あなたのusername/project/dropseq_bootcamp のように出てくればok。
+#今後は基本的にこのディレクトリで作業します。
+
+
+
 
 #シーケンスデータをコピーする　
 cp /home/daney/projects/Drop_seq/data/20200308MicroMiSeq/03072020-Ikko* data/.
 
-
 #Drop seq tools のパスを通す
 export PATH=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0:/home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR-2.7.3a/STAR/source:$PATH
-
-
-# /home/あなたのusername/project/dropseq_bootcamp のように出てくればok。
-
-#今後は基本的にこのディレクトリで作業します。
 ```
 
 
@@ -97,7 +92,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 
 #### 2. Cell barcodeを抜き出してタグ付け !!TEST!!
 ```unix
-TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb.bam_summary.txt BASE_RANGE=1-12 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=FALSE TAG_NAME=XC NUM_BASES_BELOW_QUALITY=1
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb.bam_summary.txt BASE_RANGE=1-12 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=FALSE TAG_NAME=XC NUM_BASES_BELOW_QUALITY=1
 ```
 
 
