@@ -275,6 +275,11 @@ python detect_knee_point.py
 ```unix
 awk -F "\t" '{print $1}' my_clean.dge.extracted.summary.txt > barcode_list.txt
 #headerなどはいらないのでbarcode_list.txtファイル中から削除
+
+emacs barcode_list.txt
+#消去するところは僕が指示するので、ここまでできたら教えてください。
+
+
 ```
 種ごとに遺伝子発現量のテーブルを作成
 ```unix
@@ -293,7 +298,7 @@ awk -F "\t" '{print $1}' my_clean.dge.extracted.summary.txt > barcode_list.txt
 ```unix
 #まずはファイルの位置を確認します
 pwd
-
+#この場所をメモります。
 
 #次に　Command + T を押し、新しいタブを開いてください。
 #以下のようにDesktopに移動します。
@@ -306,7 +311,7 @@ mkdir Dropseq_bootcamp
 cd Dropseq_bootcamp
 
 #先ほどのサーバー上の位置から、ファイルをダウンロードします。
-scp [ユーザー名]@[先ほどのpwdで得られたパス/*.txt] .
+scp [ユーザー名]@cs0.bioinfo.ttck.keio.ac.jp:[先ほどのpwdで得られたパス]/*.txt
 ```
 
 
