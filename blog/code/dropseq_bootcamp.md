@@ -191,7 +191,10 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 #### 12.ビーズのエラー（置換）を修正 
 
 ```unix
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+
+mkdir tmp
+
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSubstitutionErrors I=star_gene_exon_tagged.bam O=my_clean_substitution.bam OUTPUT_REPORT=my_clean.substitution_report.txt TMP_DIR= /home/[ユーザー名]project/dropseq_bootcamp/tmp
 ```
 
 
