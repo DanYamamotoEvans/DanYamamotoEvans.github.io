@@ -278,7 +278,7 @@ python /home/daney/projects/Drop_seq/for_dropseq_bootcamp/detect_knee_point.py f
 
 
 
-#### 16. 細胞として抽出したバーコードの発現量表を作成
+#### 18. 細胞として抽出したバーコードの発現量表を作成
 
 細胞として抽出されたバーコードのリストを作成
 ```unix
@@ -302,7 +302,7 @@ emacs barcode_list.txt
 
 
 
-#### 17. 細胞を種ごとにカウントする(3)
+#### 19. 細胞を種ごとにカウントする(3)
 
 ```unix
 #まずはファイルの位置を確認します
