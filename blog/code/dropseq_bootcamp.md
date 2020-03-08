@@ -40,6 +40,10 @@ qsub -I -l nodes=1:ppn=32
 シークエンスファイル（Fastq）は下記のディレクトリにアップロードしています。
 ```unix
 /home/daney/projects/Drop_seq/data
+
+
+
+
 ```
 
 
@@ -55,12 +59,21 @@ Drop-seqの解析ツールはあらかじめ下記のディレクトリにあり
 #ディレクトリを作成する
 mkdir project
 mkdir project/dropseq_bootcamp
+mkdir project/dropseq_bootcamp/data
 
 #作成したディレクトリに移動する
 cd project/dropseq_bootcamp
 
 #現在の位置を確認する
 pwd
+
+#シーケンスデータをコピーする　
+cp /home/daney/projects/Drop_seq/data/20200308MicroMiSeq/03072020-Ikko* data/.
+
+
+#Drop seq tools のパスを通す
+export PATH=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0:/home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR-2.7.3a/STAR/source:$PATH
+
 
 # /home/あなたのusername/project/dropseq_bootcamp のように出てくればok。
 
