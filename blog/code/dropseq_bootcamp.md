@@ -320,7 +320,7 @@ mkdir Dropseq_bootcamp
 cd Dropseq_bootcamp
 
 #先ほどのサーバー上の位置から、ファイルをダウンロードします。
-scp [ユーザー名]@cs0.bioinfo.ttck.keio.ac.jp:[先ほどのpwdで得られたパス]/"*.txt" .
+scp [ユーザー名]@cs0.bioinfo.ttck.keio.ac.jp:[先ほどのpwdで得られたパス]/"*.txt.gz" .
 
 
 #メールにて送ったRスクリプトも同じディレクトリに入れましょう。
