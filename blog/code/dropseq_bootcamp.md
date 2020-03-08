@@ -194,7 +194,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 
 mkdir tmp
 
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSubstitutionErrors I=star_gene_exon_tagged.bam O=my_clean_substitution.bam OUTPUT_REPORT=my_clean.substitution_report.txt TMP_DIR= /home/[ユーザー名]project/dropseq_bootcamp/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSubstitutionErrors I=star_gene_exon_tagged.bam O=my_clean_substitution.bam OUTPUT_REPORT=my_clean.substitution_report.txt TMP_DIR= /home/[ユーザー名]/project/dropseq_bootcamp/tmp
 ```
 
 
@@ -204,7 +204,7 @@ mkdir tmp
 #### 13. ビーズのエラー（合成）を修正
 
 ```unix
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC TMP_DIR= /home/[ユーザー名]/project/dropseq_bootcamp/tmp
 
 # my.synthesis_stats.summary.txtの中身を確認する
 less my.synthesis_stats.summary.txt
@@ -264,7 +264,7 @@ python detect_knee_point.py
 #### 17. 細胞を種ごとにカウントする(2)
 
 ```unix
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp NUM_CORE_BARCODES=XXX
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt TMP_DIR= TMP_DIR= /home/[ユーザー名]/project/dropseq_bootcamp/tmp NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
 
@@ -286,9 +286,9 @@ emacs barcode_list.txt
 ```
 種ごとに遺伝子発現量のテーブルを作成
 ```unix
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/[ユーザー名]project/dropseq_bootcamp/tmp
 
-/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/[ユーザー名]project/dropseq_bootcamp/tmp
 ```
 
 
