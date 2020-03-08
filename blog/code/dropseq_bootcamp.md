@@ -81,16 +81,16 @@ export PATH=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.
 
 ### Drop-seq toolsでデータを処理する
 
-#### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) !!TEST->ok!!
+#### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) 
 ```unix
-java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar  FastqToSam F1=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R1_001.fastq  F2=/home/daney/projects/Drop_seq/data/09202019-yachielab-dan_S3_L001_R2_001.fastq  O=work.bam SM=example
+java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar  FastqToSam F1=data/09202019-yachielab-dan_S3_L001_R1_001.fastq  F2=data/09202019-yachielab-dan_S3_L001_R2_001.fastq  O=work.bam SM=example
 ```
 
 
 
 
 
-#### 2. Cell barcodeを抜き出してタグ付け !!TEST!!
+#### 2. Cell barcodeを抜き出してタグ付け 
 ```unix
 /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/TagBamWithReadSequenceExtended INPUT=work.bam OUTPUT=work.cb.bam SUMMARY=work.cb.bam_summary.txt BASE_RANGE=1-12 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=FALSE TAG_NAME=XC NUM_BASES_BELOW_QUALITY=1
 ```
@@ -99,27 +99,27 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 
 
 
-#### 3. UMIを抜き出してタグ付け !!TEST!!
+#### 3. UMIを抜き出してタグ付け 
 ```unix
-TagBamWithReadSequenceExtended INPUT=work.cb.bam OUTPUT=work.cb.UMI.bam SUMMARY=work.cb.UMI.bam_summary.txt BASE_RANGE=13-20 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=TRUE TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/TagBamWithReadSequenceExtended INPUT=work.cb.bam OUTPUT=work.cb.UMI.bam SUMMARY=work.cb.UMI.bam_summary.txt BASE_RANGE=13-20 BASE_QUALITY=10 BARCODED_READ=1 DISCARD_READ=TRUE TAG_NAME=XM NUM_BASES_BELOW_QUALITY=1
 ```
 
 
 
 
 
-#### 4. クオリティが低いリードをフィルタリング !!TEST!!
+#### 4. クオリティが低いリードをフィルタリング 
 ```unix
-FilterBam TAG_REJECT=XQ INPUT=work.cb.UMI.bam OUTPUT=work.cb.UMI.filtered.bam
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/FilterBam TAG_REJECT=XQ INPUT=work.cb.UMI.bam OUTPUT=work.cb.UMI.filtered.bam
 ```
 
 
 
 
 
-#### 5. SMART adapter 配列の除去（Start site trimming) !!TEST!!
+#### 5. SMART adapter 配列の除去（Start site trimming) 
 ```unix
-TrimStartingSequence INPUT=work.cb.UMI.filtered.bam OUTPUT=work.cb.UMI.filtered.trimS.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS_report.txt SEQUENCE= AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/TrimStartingSequence INPUT=work.cb.UMI.filtered.bam OUTPUT=work.cb.UMI.filtered.trimS.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS_report.txt SEQUENCE= AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5
 ```
 
 
@@ -127,9 +127,9 @@ TrimStartingSequence INPUT=work.cb.UMI.filtered.bam OUTPUT=work.cb.UMI.filtered.
 
 
 
-#### 6. Poly Aをトリミング !!TEST!!
+#### 6. Poly Aをトリミング 
 ```unix
-PolyATrimmer INPUT=work.cb.UMI.filtered.trimS.bam OUTPUT=work.cb.UMI.filtered.trimS.trimA.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS.trimA_report.txt MISMATCHES=0 NUM_BASES=6 USE_NEW_TRIMMER=true
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/PolyATrimmer INPUT=work.cb.UMI.filtered.trimS.bam OUTPUT=work.cb.UMI.filtered.trimS.trimA.bam OUTPUT_SUMMARY= work.cb.UMI.filtered.trimS.trimA_report.txt MISMATCHES=0 NUM_BASES=6 USE_NEW_TRIMMER=true
 ```
 
 
@@ -151,7 +151,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 #### 8. STARでアライメント
 
 ```unix
-STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR --runThreadN 1 --genomeDir /home/daney/projects/Drop_seq/for_dropseq_bootcamp/STAR_database/ --readFilesIn work.cb.UMI.filtered.trimS.trimA.fastq --outFileNamePrefix star
 ```
 
 
@@ -181,7 +181,7 @@ java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.
 #### 11. gene情報を付加
 
 ```unix
-TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FILE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genes.refFlat
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FILE=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/metadata_dropseq_hg19mm10/genes.refFlat
 ```
 
 
@@ -191,7 +191,7 @@ TagReadWithGeneFunction I= merged.bam O=star_gene_exon_tagged.bam ANNOTATIONS_FI
 #### 12.ビーズのエラー（置換）を修正 
 
 ```unix
-DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/star_gene_exon_tagged.bam O=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean_substitution.bam OUTPUT_REPORT=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/my_clean.substitution_report.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 ```
 
 
@@ -201,7 +201,7 @@ DetectBeadSubstitutionErrors I=/home/daney/projects/Drop_seq/for_dropseq_bootcam
 #### 13. ビーズのエラー（合成）を修正
 
 ```unix
-DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DetectBeadSynthesisErrors I=my_clean_substitution.bam O=my_clean.bam REPORT=my_clean.indel_report.txt OUTPUT_STATS=my.synthesis_stats.txt SUMMARY=my.synthesis_stats.summary.txt PRIMER_SEQUENCE=AAGCAGTGGTATCAACGCAGAGTAC TMP_DIR= /home/daney/projects/Drop_seq/tmp
 
 # my.synthesis_stats.summary.txtの中身を確認する
 less my.synthesis_stats.summary.txt
@@ -214,7 +214,7 @@ less my.synthesis_stats.summary.txt
 #### 14. 発現量等の表を作成
 
 ```unix
-DigitalExpression I= my_clean.bam O= my_clean.dge.txt.gz SUMMARY= my_clean.dge.summary.txt NUM_CORE_BARCODES=XXXX
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I= my_clean.bam O= my_clean.dge.txt.gz SUMMARY= my_clean.dge.summary.txt NUM_CORE_BARCODES=XXXX
 #my.synthesis_stats.summary.txtに記載されているNO_ERRORの数を参照して、抜き出すバーコード数（NUM_CORE_BARCODESで指定する値）を決定
 
 ```
@@ -238,7 +238,7 @@ python detect_knee_point.py
 #### 16. 細胞として抽出したバーコードの発現量表を作成
 
 ```unix
-DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt  NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
 
@@ -249,9 +249,9 @@ DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clea
 #### 17. 細胞を種ごとにカウントする(1)
 
 ```unix
-FilterBam INPUT=my_clean.bam OUTPUT=human.bam REF_SOFT_MATCHED_RETAINED=hg19
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/FilterBam INPUT=my_clean.bam OUTPUT=human.bam REF_SOFT_MATCHED_RETAINED=hg19
 
-FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
 ```
 
 
@@ -261,7 +261,7 @@ FilterBam INPUT=my_clean.bam OUTPUT=mouse.bam REF_SOFT_MATCHED_RETAINED=mm10
 #### 17. 細胞を種ごとにカウントする(2)
 
 ```unix
-DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp NUM_CORE_BARCODES=XXX
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=my_clean.bam O=my_clean.dge.extracted.txt.gz SUMMARY=my_clean.dge.extracted.summary.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp NUM_CORE_BARCODES=XXX
 #NUM_CORE_BARCODESにKnee pointを指定
 ```
 
@@ -278,9 +278,9 @@ awk -F "\t" '{print $1}' my_clean.dge.extracted.summary.txt > barcode_list.txt
 ```
 種ごとに遺伝子発現量のテーブルを作成
 ```unix
-DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=human.bam O=human.dge.txt.gz SUMMARY=human.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 
-DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
+/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/DigitalExpression I=mouse.bam O=mouse.dge.txt.gz SUMMARY=mouse.dge.summary.txt CELL_BC_FILE=barcode_list.txt TMP_DIR= /home/daney/projects/Drop_seq/tmp
 ```
 
 
