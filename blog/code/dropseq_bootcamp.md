@@ -327,5 +327,51 @@ scp [ユーザー名]@cs0.bioinfo.ttck.keio.ac.jp:[先ほどのpwdで得られ�
 ```
 
 
+#### 20. Rを用いた解析(1)
+```unix
 
+#パッケージのダウンロード
+library(Seurat)
+library(ggplot2)
+library(Matrix)
+library(tidyverse)
+
+#install.packages("パッケージ")
+
+
+setwd("~/Desktop/Dropseq_bootcamp/")
+
+## For Dropseq data, read the expression matrix and transform into the sparse matrix format
+
+exp <- read_tsv("my_clean.dge.txt.gz",col_names = TRUE)
+exp <- column_to_rownames(exp,var="GENE")
+exp.mat <- Matrix(as.matrix(exp))
+
+## Build a Seurat object
+## min.cells: Include features detected in at least N cells
+## min.features: Include cells where at least N features are detected
+seu <- CreateSeuratObject(exp.mat,min.cells = 3,min.features = 200)
+
+## Remove low quality cells which have high mitochondrial gene expresison
+mito_pattern <- "^hg19-MT-|^mm10-mt-" #Reagular expression which indicates mitochondrial gene name
+rownames(seu)[grep(mito_pattern,rownames(seu))] #Check it
+seu[["percent.mito"]] <- PercentageFeatureSet(seu, pattern = mito_pattern)
+VlnPlot(seu, features = c("nFeature_RNA", "nCount_RNA", "percent.mito"), ncol = 3)
+seu <- subset(seu, subset = nFeature_RNA > 200 & nFeature_RNA < 100000 & percent.mito < 20)
+
+## Human-Mouse plot
+exp.count.mat <- seu@assays$RNA@counts
+exp.human.mat <- exp.count.mat[grep("^hg19",rownames(exp.count.mat)),]
+exp.mouse.mat <- exp.count.mat[grep("^mm10",rownames(exp.count.mat)),]
+exp.human.sum <- colSums(exp.human.mat)
+exp.mouse.sum <- colSums(exp.mouse.mat)
+human.mouse.mat <- data.frame(exp_human=exp.human.sum,exp_mouse=exp.mouse.sum)
+ggplot(human.mouse.mat,aes(x=exp_human,y=exp_mouse))+
+  geom_point(col="orange",size=1.5)+
+  theme_classic()
+
+## save the object
+saveRDS(seu,"step1_seurat_object.rds")
+
+```
 
