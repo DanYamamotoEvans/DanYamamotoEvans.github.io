@@ -327,7 +327,7 @@ scp [ユーザー名]@cs0.bioinfo.ttck.keio.ac.jp:[先ほどのpwdで得られ�
 ```
 
 
-#### 20. Rを用いた解析(1)
+#### 20. Rを用いた解析(1) データ前処理
 ```unix
 
 #パッケージのダウンロード
@@ -336,8 +336,10 @@ library(ggplot2)
 library(Matrix)
 library(tidyverse)
 
-#install.packages("パッケージ")
 
+#ない場合はインストールし、再度実行する
+#install.packages("パッケージ")
+#library(パッケージ)
 
 setwd("~/Desktop/Dropseq_bootcamp/")
 
@@ -370,8 +372,79 @@ ggplot(human.mouse.mat,aes(x=exp_human,y=exp_mouse))+
   geom_point(col="orange",size=1.5)+
   theme_classic()
 
+#Save plot
+ggsave("human-mouse.pdf")
+
 ## save the object
 saveRDS(seu,"step1_seurat_object.rds")
 
 ```
+
+#### 20. Rを用いた解析(2) PCA解析
+```unix
+
+## Load the saved object
+seu <- readRDS("step1_seurat_object.rds")
+
+## Normalize the expression data
+seu <- NormalizeData(seu,normalization.method = "LogNormalize", scale.factor = 10000,verbose = FALSE)
+
+## Find top 3000 highly variable genes that is expected to be useful for cell population clustering
+seu <- FindVariableFeatures(seu,selection.method="vst",nfeatures = 3000,verbose = FALSE)
+head(VariableFeatures(seu),10) #see top 10 highly variable genes
+
+## Centering and scaling the data so that the variance across cells is 1 using linear transformation
+seu <- ScaleData(seu,verbose=FALSE)
+
+## Run principal component analysis to reduce the dimention
+seu <- RunPCA(seu,verbose = FALSE)
+
+## PCA is enough to cluster the cells
+DimPlot(seu)
+FeaturePlot(seu,features = c("mm10-Pclaf","mm10-Prc1"))
+
+saveRDS(seu,"step2_seurat_object.rds")
+
+```
+
+
+#### 20. Rを用いた解析(3) UMAP 
+```unix
+
+## Load the saved object
+seu <- readRDS("step2_seurat_object.rds")
+
+## Detect the informative PC used for dimention reduction
+ElbowPlot(seu)
+dimlimit <- 8 #Using PC1-8 seems to be fine
+
+## Find k-neighbor cells
+seu <- FindNeighbors(seu, reduction = "pca", dims = 1:dimlimit,verbose=FALSE)
+
+## detect clusters with unsupervised way
+seu <- FindClusters(seu, resolution = 0.3,verbose=FALSE)
+
+## UMAP
+seu <- RunUMAP(seu, reduction = "pca", dims = 1:dimlimit,verbose=FALSE)
+DimPlot(seu,reduction = "umap")
+
+## Map human or mouse gene expression on UMAP
+norm.count <- seu@assays$RNA@data
+norm.count.human <- norm.count[grep("^hg19",rownames(norm.count)),]
+norm.count.mouse <- norm.count[grep("^mm10",rownames(norm.count)),]
+exp.human.sum <- colSums(norm.count.human)
+exp.mouse.sum <- colSums(norm.count.mouse)
+
+seu$huamn_gene_count <- exp.human.sum
+seu$mouse_gene_count <- exp.mouse.sum
+
+FeaturePlot(seu,
+            features = c("huamn_gene_count","mouse_gene_count"),
+            cols = c("grey80","deeppink2"),
+            pt.size = 1.5)
+            
+#Save plot
+ggsave("UMAP.pdf")
+```
+
 
