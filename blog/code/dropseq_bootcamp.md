@@ -380,6 +380,26 @@ saveRDS(seu,"step1_seurat_object.rds")
 
 ```
 
+##### ここで得られる描画一覧
+
+各セルバーコードに見られるRNAの種類、総数、ミトコンドリア由来の割合
+```unix
+VlnPlot(seu, features = c("nFeature_RNA", "nCount_RNA", "percent.mito"), ncol = 3)
+```
+![photo](https://danyamamotoevans.github.io/materials/mito_violin.pdf)
+
+
+各セルバーコードにおいてHumanとMouseにそれぞれマップした総リード数
+ ```unix
+ggplot(human.mouse.mat,aes(x=exp_human,y=exp_mouse))+
+  geom_point(col="orange",size=1.5)+
+  theme_classic()
+```
+![photo](https://danyamamotoevans.github.io/materials/human-mouse.pdf)
+
+
+
+
 #### 20. Rを用いた解析(2) PCA解析
 ```unix
 
@@ -406,6 +426,24 @@ FeaturePlot(seu,features = c("mm10-Pclaf","mm10-Prc1"))
 saveRDS(seu,"step2_seurat_object.rds")
 
 ```
+
+##### ここで得られる描画一覧
+
+PCA解析の出力
+ ```unix
+DimPlot(seu)DimPlot(seu)
+```
+![photo](https://danyamamotoevans.github.io/materials/PCA.pdf)
+
+
+PCA解析の出力に、head(VariableFeatures(seu),10) で見られたTop2の遺伝子をマップしたもの
+ ```unix
+FeaturePlot(seu,features = c("mm10-Pclaf","mm10-Prc1"))
+```
+![photo](https://danyamamotoevans.github.io/materials/PCA-feature.pdf)
+
+
+
 
 
 #### 20. Rを用いた解析(3) UMAP 
@@ -446,5 +484,32 @@ FeaturePlot(seu,
 #Save plot
 ggsave("UMAP.pdf")
 ```
+
+##### ここで得られる描画一覧
+
+次元圧縮に寄与している遺伝子を上から並べ、それぞれどれくらいのばらつきがあるかを示す
+ ```unix
+ElbowPlot(seu)
+```
+![photo](https://danyamamotoevans.github.io/materials/PCA-component_std.pdf)
+
+
+
+次元圧縮したデータを、UMAPを用いて描画する
+ ```unix
+DimPlot(seu,reduction = "umap")
+```
+![photo](https://danyamamotoevans.github.io/materials/umap.pdf)
+
+
+UMAPの描画にHumanとMouseのgeneカウントをマップする
+ ```unix
+FeaturePlot(seu,
+            features = c("huamn_gene_count","mouse_gene_count"),
+            cols = c("grey80","deeppink2"),
+            pt.size = 1.5)
+
+```
+![photo](https://danyamamotoevans.github.io/materials/umap_human_mouse.pdf)
 
 
