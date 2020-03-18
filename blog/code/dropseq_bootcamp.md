@@ -84,6 +84,9 @@ export PATH=/home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.
 #### 1. Dropseq toolsのインプット用にファイル形式を変換（fastq to bam) 
 ```unix
 java -jar /home/daney/projects/Drop_seq/for_dropseq_bootcamp/Drop-seq_tools-2.3.0/jar/lib/picard-2.18.14.jar  FastqToSam F1=data/09202019-yachielab-dan_S3_L001_R1_001.fastq  F2=data/09202019-yachielab-dan_S3_L001_R2_001.fastq  O=work.bam SM=example
+
+#ここでの　F1= はコピーしてきた自分の.fastqファイルのうち、R1 とある方を引数として渡す。同じくF2=はR2とあるもの。
+#実行ができたらls してwork.bamができたことを確認する。以後も同様にoutputをlsで確認する。
 ```
 
 
