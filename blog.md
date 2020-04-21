@@ -8,6 +8,7 @@
 
 Notes
   1. [2020 Keio SFC Spring project Analysis part (Drop-seq bootcamp)](https://danyamamotoevans.github.io/blog/code/dropseq_bootcamp)
+  2. [Lecture notes for 「Data Sciecne for Genome Dynamics」(2020 Spring) ](https://danyamamotoevans.github.io/blog/code/ds4gd)
 
 
 
