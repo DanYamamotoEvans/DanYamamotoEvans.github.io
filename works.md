@@ -9,7 +9,7 @@ Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?use
 
 #### Peer-reveiwed papers
 
-**5.**  Y. Murai, T. Masuda, Y. Onuma, **D. Evans-Yamamoto**, N. Takeuchi, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa "Complete Genome Sequence of Bacillus sp. Strain KH172YL63, Isolated from Deep-Sea Sediment", (2019) _Micro Biology Resource Announcements_ **9**:e00291-20 [Doi: 10.1128/MRA.00291-20](https://mra.asm.org/content/9/16/e00291-20)(¶ equal contribution)
+**5.**  Y. Murai, T. Masuda, Y. Onuma, **D. Evans-Yamamoto**, N. Takeuchi, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa "Complete Genome Sequence of Bacillus sp. Strain KH172YL63, Isolated from Deep-Sea Sediment", (2019) _Micro Biology Resource Announcements_ **9**:e00291-20 [Doi: 10.1128/MRA.00291-20](https://mra.asm.org/content/9/16/e00291-20)
 
 **4.** A. Marchant, A. Cisneros, A. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, **D. Evans-Yamamoto**, N. Yachie, C. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
 
