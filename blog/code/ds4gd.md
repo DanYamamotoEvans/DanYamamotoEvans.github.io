@@ -3,7 +3,6 @@
 
 
 
-担当回について、以下のことをJupyter notebook＋Collaborator (https://colab.research.google.com/notebooks/intro.ipynb)で行うことを考えています。
 
 内容：
 
