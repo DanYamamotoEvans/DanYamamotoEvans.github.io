@@ -1,11 +1,11 @@
-## 生命動態のデータサイエンス[DS2]
+## 生命動態のデータサイエンス(DS2)
 （春学期 火曜日３時限）
 慶應義塾大学　政策・メディア研究科　後期博士課程　教育体験　講義資料
 （Last updated on June 1st by Daniel Evans-Yamamoto）
 
 
 
-内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第１回]）。その後、
+内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第１回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第1回202062)）。その後、
 
 ## 教育体験　第1回　2020/6/2
 - Introduction
@@ -15,7 +15,7 @@
 - タンパク質配列に影響を与えるのはどれくらいの頻度か？
 - SARS-CoV-2には変異のホットスポットはあるのか？
 
-## 第2回 (予定)
+## 教育体験　第1回　2020/6/9 (予定)
 - タンパク質の構造をPDBからダウンロード
 - Rpdb を用いて描画
 - String からPPI 情報、PPI interface情報を取得
@@ -23,7 +23,7 @@
 - 変異頻度をタンパク質立体構造に描画
 - 機能（ドメイン）と、Enrichmentに関係があるのかを考察
 
-## 第3回 (予定)
+##  教育体験　第1回　2020/6/9 (予定)
 - ウイルス側の情報で得たことを、ホストの関連タンパク質で行う
 - PPI のco-evolutionについて学ぶ
 
