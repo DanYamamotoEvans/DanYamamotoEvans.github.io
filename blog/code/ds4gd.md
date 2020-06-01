@@ -22,6 +22,16 @@
 
 #### 1.2. SARS-CoV-2のゲノムをダウンロード
 
+NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単離された[NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で、これはRefSeqと言われるレファレンスに指定されている。[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)にはこれに加えて世界中で採取された5,000近い配列が登録されている。
+
+
+    library(seqinr)
+    ACCESSION <- "NC_045512" # SARS-CoV-2
+    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
+    seqs <- read.fasta(file=filename, seqtype="DNA", strip.desc=TRUE)
+    seq1 <- seqs[[1]]
+
+
 #### 1.3. ORF領域を抽出、コドン使用頻度を確認
 
 #### 1.4. SARS-CoV-2株間の変異情報の確認
