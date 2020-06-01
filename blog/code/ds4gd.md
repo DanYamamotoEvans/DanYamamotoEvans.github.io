@@ -120,7 +120,10 @@ SARS-CoV-2では、多くのsynonymous, non-synonymous
 
 
 
-頻度　（positionを選んで計算してね）
+##  
+## 
+##
+
 
 
 
