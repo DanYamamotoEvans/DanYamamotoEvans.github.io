@@ -5,16 +5,17 @@
 
 
 
-内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)の配列解析を
+内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第１回]）。その後、
 
-第1回
+## 教育体験　第1回　2020/6/2
 - Introduction
 - SARS-CoV-2のゲノムをダウンロード
 - ORF領域を抽出、コドン使用頻度を確認
 - SARS-CoV-2株間の変異情報の確認
 - タンパク質配列に影響を与えるのはどれくらいの頻度か？
+- SARS-CoV-2には変異のホットスポットはあるのか？
 
-第2回 (予定)
+## 第2回 (予定)
 - タンパク質の構造をPDBからダウンロード
 - Rpdb を用いて描画
 - String からPPI 情報、PPI interface情報を取得
@@ -22,7 +23,7 @@
 - 変異頻度をタンパク質立体構造に描画
 - 機能（ドメイン）と、Enrichmentに関係があるのかを考察
 
-第3回 (予定)
+## 第3回 (予定)
 - ウイルス側の情報で得たことを、ホストの関連タンパク質で行う
 - PPI のco-evolutionについて学ぶ
 
