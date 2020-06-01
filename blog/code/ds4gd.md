@@ -23,11 +23,16 @@
 本講義では、現在世界中で猛威を奮っているSARS-CoV-2ウイルスを題材に、「変異」とは何か、また機能にどのように影響を及ぼすのかについてその解析の一例を体験する。この過程で、DNAに起きた変異がどのように形態の違いに寄与するかなどを理解し、今後の研究等に役立てていただきたい。
 
 
+まず、SARS-CoV-2ウイルスを見てみよう。
 
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.001.jpeg)
 
-セントラルドグマは
+このウイルスがどのようにヒトに感染するかを知る前に、セントラルドグマについてざっとおさらいしよう。セントラルドグマとは、DNAからRNAが転写され、そのRNAを翻訳してタンパク質が作られるという生物におけるルールだ。このタンパク質は遺伝子によって多種多様にあり、細胞の機能・維持に主として働いていることも付け加えたい。
+
 ![photo](https://www.brh.co.jp/publication/journal/052/img/zu01b.gif)
+
+
+
 
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.002.jpeg)
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.003.jpeg)
