@@ -13,7 +13,7 @@
 #### 目次
 1. Introduction
 2. SARS-CoV-2のゲノムをダウンロード
-3. ORF領域を抽出、コドン使用頻度を確認
+3. ORF領域を抽出、翻訳
 4. SARS-CoV-2株間の変異情報の確認
 5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
 6. SARS-CoV-2には変異のホットスポットはあるのか？
@@ -26,21 +26,41 @@ NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単�
 
 
     library(seqinr)
-    library(ape)
-    #エラーが出たら　install.packages("ape") でインストールする
-    
     ACCESSION <- "NC_045512" # SARS-CoV-2
-    sarscov2 <- read.GenBank(ACCESSION)
+    
+    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
+
+    seqs <- read.fasta(file=filename, seqtype="DNA", strip.desc=TRUE)
+    sarscov2 <- seqs[[1]]
     
 
+#### 1.3. ORF領域を抽出、翻訳
 
-#### 1.3. ORF領域を抽出、コドン使用頻度を確認
+SARS-CoV-2ゲノム中には、14の機能的タンパク質がコードされていることが推測されている。今回はSARS-CoV-2の中でも、ヒト細胞に感染する際に重要なSpike proteinに着目する。
+
+    #Spike proteinがコードされている位置をNCBIのWEBサイト(https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で確認できる
+    spike_cds = sarscov2[21563:25384]#ゲノムの21563bpから25384bpの位置にコードされている
+    
+    #seqinr内のgetTrans関数でCDSをタンパク質に翻訳する
+    spike_AA  = getTrans(spike_cds)
+  
+    #プリントしてみよう 1文字目は必ずメチオニンを表すMとなるはず
+    spike_AA
+    
 
 #### 1.4. SARS-CoV-2株間の変異情報の確認
 
+
+
+
+
 #### 1.5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
 
-#### 1.6. SARS-CoV-2には変異のホットスポットはあるのか？
+
+
+
+#### 1.6. SARS-CoV-2のSpike Proteinには変異のホットスポットはあるのか？
+
 
 
 
