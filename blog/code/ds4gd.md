@@ -24,7 +24,9 @@
 
 NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単離された[NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で、これはRefSeqと言われるレファレンスに指定されている。[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)にはこれに加えて世界中で採取された5,000近い配列が登録されている。
 
+
 ここでは先週行った、Rのseqinrパッケージを用いたゲノムのダウンロードを行う。
+    
     library(seqinr)
     ACCESSION <- "NC_045512" # SARS-CoV-2
     
@@ -50,8 +52,7 @@ SARS-CoV-2ゲノム中には、14の機能的タンパク質がコードされ�
 
 #### 1.4. SARS-CoV-2株間の変異情報の確認
 
-
-
+[公開されたCOVID-19のゲノム配列にもとづく疫学データ](https://nextstrain.org/ncov)を見てみると、ウイルス株の変異パターンから流行の過程を推測することができる。そのような変異はゲノム上のどのような位置にあるのだろうか？
 
 
 #### 1.5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
