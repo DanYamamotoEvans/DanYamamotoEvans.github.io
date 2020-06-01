@@ -20,6 +20,21 @@
 
 #### 1.1 Introduction
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### 1.2. SARS-CoV-2のゲノムをダウンロード
 
 NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単離された[NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で、これはRefSeqと言われるレファレンスに指定されている。[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)にはこれに加えて世界中で採取された5,000近い配列が登録されている。
@@ -64,11 +79,10 @@ DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ�
 
 これを踏まえて、「変異している＝より感染力が強い」と結論付けられるのだろうか？
 
-進化とは、この多様性の獲得(変異；variation)と選択 (淘汰；selection)が行われることで、次第に環境に適応した個体が残る。選択のステップで獲得された変異が利益（あるいは）不利益を被る場合はそのような進化は助長されるが、中にはあってもなくても変わらない（中立的）変異も存在する。したがって、変異があるからと言ってそれがすなわち危ないということではない。
+進化とは、この多様性の獲得(変異；variation)と選択 (淘汰；selection)が行われることで、次第に環境に適応した個体が残ることである。選択のステップで獲得された変異が利益（あるいは）不利益を被る場合はそのような進化は助長されるが、中にはあってもなくても変わらない（中立的）変異も存在する。したがって、変異があるからと言ってそれがすなわちより危ないウイルスであるということでは決してない。
 
-SARS-CoV-2では、多くのsynonymous, non-synonymous
+SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変異が報告されているが、本講義ではそれらに着目し、機能変化を実現し得るかを確認してみよう。
 
-頻度　（positionを選んで計算してね）
 
 
 
@@ -87,7 +101,7 @@ SARS-CoV-2では、多くのsynonymous, non-synonymous
 
 1.2 ~ 1.3と同様に下記手順に従って着目した株の変異情報を見てみよう
 
-    MUTATION <- "" # SARS-CoV-2, France
+    MUTATION <- "MT320538" # SARS-CoV-2, France
     
     filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
 
