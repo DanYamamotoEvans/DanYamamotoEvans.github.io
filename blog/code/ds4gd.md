@@ -16,7 +16,7 @@
 2. SARS-CoV-2のゲノムをダウンロード
 3. ORF領域を抽出、翻訳
 4. SARS-CoV-2株間の変異情報の確認
-5. SARS-CoV-2には変異のホットスポットはあるのか？
+5. SARS-CoV-2の変異情報を確認しよう（**演習課題**）
 
 #### 1.1 Introduction
 
@@ -73,7 +73,7 @@ SARS-CoV-2では、多くのsynonymous, non-synonymous
 
 
 
-#### 1.6. SARS-CoV-2の変異を実際に（演習課題）
+#### 1.5. SARS-CoV-2の変異情報を確認しよう（演習課題）
 
 [疫学データ](https://nextstrain.org/ncov)をもとに、ゲノム上の変異位置の一つに着目しよう。
 
