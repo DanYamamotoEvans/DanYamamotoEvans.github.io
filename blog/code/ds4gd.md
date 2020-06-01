@@ -24,7 +24,7 @@
 
 NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単離された[NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で、これはRefSeqと言われるレファレンスに指定されている。[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)にはこれに加えて世界中で採取された5,000近い配列が登録されている。
 
-
+ここでは先週行った、Rのseqinrパッケージを用いたゲノムのダウンロードを行う。
     library(seqinr)
     ACCESSION <- "NC_045512" # SARS-CoV-2
     
@@ -36,12 +36,12 @@ NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単�
 
 #### 1.3. ORF領域を抽出、翻訳
 
-SARS-CoV-2ゲノム中には、14の機能的タンパク質がコードされていることが推測されている。今回はSARS-CoV-2の中でも、ヒト細胞に感染する際に重要なSpike proteinに着目する。
+SARS-CoV-2ゲノム中には、14の機能的タンパク質がコードされていることが推測されている。今回はSARS-CoV-2の中でも、ヒト細胞に感染する際に重要なSpike proteinに着目する。 タンパク質がコードされている配列位置情報はNCBIのWEBサイト(https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で確認できる。
 
-    #Spike proteinがコードされている位置をNCBIのWEBサイト(https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)で確認できる
-    spike_cds = sarscov2[21563:25384]#ゲノムの21563bpから25384bpの位置にコードされている
+    #SARS-CoV-2のSpike Protein はゲノムの21563bpから25384bpの位置にコードされているため、これを抽出する
+    spike_cds = sarscov2[21563:25384]
     
-    #seqinr内のgetTrans関数でCDSをタンパク質に翻訳する
+    #seqinr内のgetTrans関数で核酸配列をアミノ酸（タンパク質）配列に翻訳する
     spike_AA  = getTrans(spike_cds)
   
     #プリントしてみよう 1文字目は必ずメチオニンを表すMとなるはず
