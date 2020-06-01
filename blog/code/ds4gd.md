@@ -26,10 +26,12 @@ NCBIからDNA配列を取得する。SARS-CoV-2のNCBI accessionは武漢で単�
 
 
     library(seqinr)
+    library(ape)
+    #エラーが出たら　install.packages("ape") でインストールする
+    
     ACCESSION <- "NC_045512" # SARS-CoV-2
-    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
-    seqs <- read.fasta(file=filename, seqtype="DNA", strip.desc=TRUE)
-    seq1 <- seqs[[1]]
+    sarscov2 <- read.GenBank(ACCESSION)
+    
 
 
 #### 1.3. ORF領域を抽出、コドン使用頻度を確認
