@@ -22,6 +22,8 @@
 
 
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.001.jpeg)
+![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.002.jpeg)
+![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.003.jpeg)
 
 
 
@@ -83,8 +85,8 @@ DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ�
 
 SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変異が報告されているが、本講義ではそれらに着目し、機能変化を実現し得るかを確認してみよう。
 
-
-
+![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.003.jpeg)
+この二つの株間では機能に違いはあるのだろうか？
 
 
 #### 1.5. SARS-CoV-2の変異情報を確認しよう（演習課題）
