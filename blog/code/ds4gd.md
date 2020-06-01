@@ -6,7 +6,7 @@
 
 
 内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第1回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第1回202062)）。[第2回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第2回202069)では、タンパク質の立体構造データを[Protein Data Bank (PDB)](https://www.rcsb.org)から取得し、変異情報を立体構造に描画する。最後に、[第3回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第3回2020616)では、ウイルスのタンパク質とホストのタンパク質の結合面を確認し、変異がそのようなドメインに濃縮しているのか、ヒトとSARS-CoV-2のの遺伝的多様性を確認する。
-　評価は、各回に貸される課題に基づいて行う。
+　評価は、各回に課される課題に基づいて行う。
 
 
 ## 教育体験　第1回　2020/6/2
@@ -64,11 +64,10 @@ DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ�
 
 これを踏まえて、「変異している＝より感染力が強い」と結論付けられるのだろうか？
 
-変異とは
-（頻度、種類e.g. synonymous, non-synonymous）
+進化とは、この多様性の獲得(変異；variation)と選択 (淘汰；selection)が行われることで、次第に環境に適応した個体が残る。選択のステップで獲得された変異が利益（あるいは）不利益を被る場合はそのような進化は助長されるが、中にはあってもなくても変わらない（中立的）変異も存在する。したがって、変異があるからと言ってそれがすなわち危ないということではない。
 
-進化とは、この変異(variation)と& selection)
-について説明する
+SARS-CoV-2では、多くのsynonymous, non-synonymous
+
 
 
 #### 1.5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
@@ -77,6 +76,9 @@ DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ�
 
 
 #### 1.6. SARS-CoV-2のSpike Proteinには変異のホットスポットはあるのか？
+
+
+
 
 
 
