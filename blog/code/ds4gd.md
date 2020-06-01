@@ -16,8 +16,7 @@
 2. SARS-CoV-2のゲノムをダウンロード
 3. ORF領域を抽出、翻訳
 4. SARS-CoV-2株間の変異情報の確認
-5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
-6. SARS-CoV-2には変異のホットスポットはあるのか？
+5. SARS-CoV-2には変異のホットスポットはあるのか？
 
 #### 1.1 Introduction
 
@@ -69,15 +68,30 @@ DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ�
 
 SARS-CoV-2では、多くのsynonymous, non-synonymous
 
-
-
-#### 1.5. タンパク質配列に影響を与えるのはどれくらいの頻度か？
+頻度　（positionを選んで計算してね）
 
 
 
 
-#### 1.6. SARS-CoV-2のSpike Proteinには変異のホットスポットはあるのか？
+#### 1.6. SARS-CoV-2の変異を実際に（演習課題）
 
+[疫学データ](https://nextstrain.org/ncov)をもとに、ゲノム上の変異位置の一つに着目しよう。
+
+そこで、
+- 選んだ変異がどこでサンプリングされたか
+- どのタンパク質コード領域か
+- タンパク質を
+- ゲノム上の変異の位置（Nulceotide position）コード
+- ゲノム上の変異の位置（Nulceotide position）
+- ゲノム上の変異の位置（Nulceotide position）
+を確認しよう。
+
+確認されたサンプリングポイントのゲノムを[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)で見つけ、IDを控えよう。
+
+1.2 ~ 1.3の
+
+
+頻度　（positionを選んで計算してね）
 
 
 
