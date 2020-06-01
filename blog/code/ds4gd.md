@@ -80,15 +80,44 @@ SARS-CoV-2では、多くのsynonymous, non-synonymous
 そこで、
 - 選んだ変異がどこでサンプリングされたか
 - どのタンパク質コード領域か
-- タンパク質を
-- ゲノム上の変異の位置（Nulceotide position）コード
-- ゲノム上の変異の位置（Nulceotide position）
-- ゲノム上の変異の位置（Nulceotide position）
+- タンパク質をコードする何番目のアミノ酸か
 を確認しよう。
 
 確認されたサンプリングポイントのゲノムを[NCBIのSARS-CoV-2ページ](https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/)で見つけ、IDを控えよう。
 
-1.2 ~ 1.3の
+1.2 ~ 1.3と同様に下記手順に従って着目した株の変異情報を見てみよう
+
+    MUTATION <- "" # SARS-CoV-2, France
+    
+    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
+
+    seqs <- read.fasta(file=filename, seqtype="DNA", strip.desc=TRUE)
+    sarscov2_mut <- seqs[[1]]
+
+    #ここではSpike protein に着目しゲノムの21563bpから25384bpを抽出する
+    spikemut_cds = sarscov2_mut[21563:25384]    
+    
+    #翻訳
+    spike_AA_mut  = getTrans(spikemut_cds)
+
+
+実際にどんな変異が入っているか比較してみよう。着目したい「pos」は疫学データをもとに入れてみよう。
+
+
+！！念のため幅を持って表示しよう。！！
+
+
+    #核酸の変異はあるか？
+    spike_cds[pos]
+    spikemut_cds[pos]
+
+    #アミノ酸配列の変異はあるか？
+    spike_AA[pos]
+    spike_AA_mut[pos]
+    
+
+
+
 
 
 頻度　（positionを選んで計算してね）
