@@ -1,16 +1,32 @@
 ## 生命動態のデータサイエンス[DS2]
 （春学期 火曜日３時限）
-
+慶應義塾大学　政策・メディア研究科　後期博士課程　教育体験　講義資料
+（Last updated on June 1st by Daniel Evans-Yamamoto）
 
 
 
 内容：
 
+第一回
+- Introduction
 - SARS-CoV-19のゲノムをダウンロード
 - ORF領域を抽出、確認
 - タンパク質の構造をPDBからダウンロード
 - Rpdb を用いて描画
 
+第二回
+- String からPPI 情報、PPI interface情報を取得
+- 変異情報をタンパク質立体構造に描画
+- 変異頻度をタンパク質立体構造に描画
+- 機能（ドメイン）と、Enrichmentに関係があるのかを考察
+
+第三回
+- ウイルス側の情報で得たことを、ホストの関連タンパク質で行う
+- PPI のco-evolutionについて学ぶ
+
+
+
+## memo 
 install.packages("bio3d")
 library(bio3d)
 
