@@ -20,8 +20,15 @@
 
 #### 1.1 Introduction
 
+本講義では、現在世界中で猛威を奮っているSARS-CoV-2ウイルスを題材に、「変異」とは何か、また機能にどのように影響を及ぼすのかについてその解析の一例を体験する。この過程で、DNAに起きた変異がどのように形態の違いに寄与するかなどを理解し、今後の研究等に役立てていただきたい。
+
+
 
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.001.jpeg)
+
+セントラルドグマは
+![photo](https://www.brh.co.jp/publication/journal/052/img/zu01b.gif)
+
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.002.jpeg)
 ![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.003.jpeg)
 
