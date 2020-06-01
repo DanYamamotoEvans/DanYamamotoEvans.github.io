@@ -42,8 +42,15 @@ SARS-CoV-2ゲノム中には、14の機能的タンパク質がコードされ�
 
     #SARS-CoV-2のSpike Protein はゲノムの21563bpから25384bpの位置にコードされているため、これを抽出する
     spike_cds = sarscov2[21563:25384]
+
+
+DNAは生体内でRNAに翻訳され、その後遺伝暗号に従いアミノ酸配列に翻訳される。その対応表を下に示す。
+
+![photo](https://blog.addgene.org/hs-fs/hubfs/7_18_to_9_18/codonUsageBias_TJF_2018_9_20/Codon%20Chart.png?width=800&name=Codon%20Chart.png)
+
+
+ここでは、遺伝暗号表（コドンテーブル）をもとにseqinr内のgetTrans関数で核酸配列をアミノ酸（タンパク質）配列に翻訳する。
     
-    #seqinr内のgetTrans関数で核酸配列をアミノ酸（タンパク質）配列に翻訳する
     spike_AA  = getTrans(spike_cds)
   
     #プリントしてみよう 1文字目は必ずメチオニンを表すMとなるはず
