@@ -131,7 +131,7 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
     MUTATION <- "MT320538" # SARS-CoV-2, France
     
-    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",ACCESSION,"&rettype=fasta&retmode=text")
+    filename <- paste0("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=",MUTATION,"&rettype=fasta&retmode=text")
 
     seqs <- read.fasta(file=filename, seqtype="DNA", strip.desc=TRUE)
     sarscov2_mut <- seqs[[1]]
