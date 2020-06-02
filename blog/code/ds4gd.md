@@ -18,6 +18,12 @@
 4. SARS-CoV-2株間の変異情報の確認
 5. SARS-CoV-2の変異情報を確認しよう（**演習課題**）
 
+
+#### 0 自己紹介
+
+![photo](https://danyamamotoevans.github.io/materials/introduction.jpeg)
+
+
 #### 1.1 Introduction
 
 本講義では、現在世界中で猛威を奮っているSARS-CoV-2ウイルスを題材に、「変異」とは何か、また機能にどのように影響を及ぼすのかについてその解析の一例を体験する。この過程で、DNAに起きた変異がどのように形態の違いに寄与するかなどを理解し、今後の研究等に役立てていただきたい。
@@ -42,9 +48,9 @@
 ウイルスは1と2を満たしているが、3 はどうだろう？　宿主を利用して自己を複製するが、単体ではできない点で生物に含めるか否かの議論が依然として行われている。
 
 
-![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.002.jpeg)
-![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.003.jpeg)
+次にSARS-CoV-2がどのように宿主に感染するかを見てみよう。このウイルスのゲノムは14のタンパク質をコードしており、それぞれ機能を担っている。
 
+![photo](https://danyamamotoevans.github.io/materials/DS4GD2020_DEY.002.jpeg)
 
 
 
