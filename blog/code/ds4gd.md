@@ -185,6 +185,16 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 
 
+
+マルチプルアラインメントのパッケージ[”msa”](https://bioconductor.org/packages/release/bioc/vignettes/msa/inst/doc/msa.pdf)に沿って進めてみよう。
+
+    if (!requireNamespace("BiocManager", quietly=TRUE)) 
+    install.packages("BiocManager")
+    BiocManager::install("msa")
+    
+    library(msa)
+
+
 #### 2. タンパク質の構造をPDBからダウンロード
 
 #### 3. Rpdb を用いて描画
