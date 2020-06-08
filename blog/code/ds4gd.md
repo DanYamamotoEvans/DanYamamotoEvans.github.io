@@ -215,6 +215,33 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 ここで出力される”myFirstAlignment.tex”をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
 
+テストデータの出力が確認されたら、自分のデータで行う際の要領を確認する。
+
+    #以下のようなmulti fasta ファイルを用意しよう。
+    >NC_045512
+    MFVFLKGVKLHYTMFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFR
+    >MT578015
+    SSVLHSTCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+    >MT539729
+    MFVFLVLLGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT
+
+    
+    #データをロードする
+    #ポップアップが出るので、自分のファイルを選択しよう。
+    mySequences <- readAAStringSet(file.choose())
+    
+    
+    ＃配列を確認する
+    mySequences
+
+
+    #アラインメントを行う。
+    myAlignment <- msa(mySequences)
+    #use default substitution matrix
+    
+    #結果の表示
+    myAlignment
+
 
 
 
