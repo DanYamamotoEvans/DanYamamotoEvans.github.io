@@ -225,7 +225,7 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 
 
-![photo](https://danyamamotoevans.github.io/materials/myFirstAlignment.pdf)
+![photo](https://danyamamotoevans.github.io/materials/myFirstAlignment.png)
 
 
 
