@@ -213,7 +213,7 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
     myFirstAlignment
 
 
-ここで出力される””をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
+ここで出力される”myFirstAlignment.tex”をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
 
 
 
