@@ -197,6 +197,27 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
     library(msa)
 
 
+テストデータをロードし中身を確認しよう。
+
+    mySequenceFile <- system.file("examples", "exampleAA.fasta", package="msa")
+    mySequences <- readAAStringSet(mySequenceFile)
+    mySequences
+
+
+アラインメントを行う。
+
+    myFirstAlignment <- msa(mySequences)
+    #use default substitution matrix
+    
+    #結果の表示
+    myFirstAlignment
+
+
+ここで出力される””をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex]https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
+
+
+
+
 #### 2. タンパク質の構造をPDBからダウンロード
 
 #### 3. Rpdb を用いて描画
