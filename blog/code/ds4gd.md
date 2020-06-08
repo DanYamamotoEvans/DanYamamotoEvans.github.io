@@ -223,6 +223,23 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 ここで出力される”myFirstAlignment.tex”をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
 
+
+
+![photo](https://danyamamotoevans.github.io/materials/myFirstAlignment.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 テストデータの出力が確認されたら、自分のデータで行う際の要領を確認する。
 
     #以下のようなmulti fasta ファイルを用意しよう。
