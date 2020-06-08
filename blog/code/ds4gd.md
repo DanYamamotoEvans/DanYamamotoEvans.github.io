@@ -185,6 +185,11 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 #### 1. マルチプルアラインメント
 
+比較解析を行う上で、配列や構造のアラインメントが行われる。アラインメントには大きく分けて「ローカルアラインメント」と「グローバルアラインメント」があり、前者はデータベースから何が相同な配列であるかや部分的なマッチを探すのに適しているのに対して、後者はすでに一程度相同な配列に対して全長の違いを見るのに用いられる。ここではこれを複数の配列を用いるマルチプルアラインメントを行ってみよう。
+
+
+アミノ酸のマッチはその極性等の性質の近さから下記の表によって得点化される。
+
 
 
 
@@ -211,6 +216,9 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
     
     #結果の表示
     myFirstAlignment
+    
+    #Plotのtexファイルを出力
+    msaPrettyPrint(myFirstAlignment, output="pdf", showNames="none", showLogo="none", askForOverwrite=FALSE, verbose=FALSE)
 
 
 ここで出力される”myFirstAlignment.tex”をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
@@ -242,7 +250,8 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
     #結果の表示
     myAlignment
 
-
+    #Plotのtexファイルを出力
+    msaPrettyPrint(myAlignment, output="pdf", showNames="none", showLogo="none", askForOverwrite=FALSE, verbose=FALSE)
 
 
 #### 2. タンパク質の構造をPDBからダウンロード
