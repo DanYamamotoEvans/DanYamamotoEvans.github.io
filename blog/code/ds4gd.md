@@ -347,12 +347,8 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 ![photo](https://danyamamotoevans.github.io/materials/pdb_eg.png)
 
 
-
-
 - マルチプルアラインメントで着目した位置をハイライトしてみよう。
 - 極性のあるアミノ酸をハイライトしてみよう。
-
-
 
 
 
