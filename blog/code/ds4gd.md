@@ -183,6 +183,14 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 5. 変異情報をタンパク質立体構造に描画
 
 
+#### どの変異が機能に影響するのか知る術はあるのだろうか？
+
+DMS
+
+
+
+
+
 #### 1. マルチプルアラインメント
 
 比較解析を行う上で、配列や構造のアラインメントが行われる。アラインメントには大きく分けて「ローカルアラインメント」と「グローバルアラインメント」があり、前者はデータベースから何が相同な配列であるかや部分的なマッチを探すのに適しているのに対して、後者はすでに一程度相同な配列に対して全長の違いを見るのに用いられる。ここではこれを複数の配列を用いるマルチプルアラインメントを行ってみよう。
@@ -222,6 +230,9 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 
 ここで出力される”myFirstAlignment.tex”をみるには[tex](https://texwiki.texjp.org/?MacTeX)と[Latex](https://www.chachatelier.fr/latexit/latexit-downloads.php)を用いる必要があるので、適宜ダウンロードしよう。
+    
+    ！！注意！！
+    Tex/LaTexは
 
 
 
@@ -270,14 +281,20 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
     #Plotのtexファイルを出力
     msaPrettyPrint(myAlignment, output="pdf", showNames="none", showLogo="none", askForOverwrite=FALSE, verbose=FALSE)
 
+このファイルをTex/LaTexで開くと、マルチプルアラインメントの図が見られます。
 
-#### 2. タンパク質の構造をPDBからダウンロード
 
-#### 3. Rpdb を用いて描画
 
-#### 4. String からPPI 情報、PPI interface情報を取得
+#### 2. タンパク質の構造をPDB上で確認しよう
 
-#### 5. 変異情報をタンパク質立体構造に描画
+
+[Protein Data Bank](https://www.rcsb.org)にアクセスしよう。
+
+
+
+
+#### 3. String からPPI 情報、PPI interface情報を取得して、相互作用しているタンパク質の状態を確認しよう
+
 
 
 
@@ -293,17 +310,3 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 2. 機能（ドメイン）と、Enrichmentに関係があるのかを考察
 3. PPI のco-evolutionについて学ぶ
 
-
-## memo 
-install.packages("bio3d")
-library(bio3d)
-
-
-
-x <- read.pdb(system.file("examples/PCBM_ODCB.pdb",package="Rpdb"))
-
-- 各変異がタンパク質の構造にマッピング
-
-- タンパク質相互作用に重要なドメインに当たるかを確認
-- PPIドッキングの情報と照らし合わせる
-- 各変異の影響を考察　(レポート)
