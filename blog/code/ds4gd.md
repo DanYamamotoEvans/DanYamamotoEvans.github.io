@@ -388,33 +388,32 @@ BioGRIDは様々な文献で報告されているタンパク質間相互作用�
 
 ここで注意が必要な点をいくつか挙げる。
 
-1. タンパク質間相互作用は様々な手法を用いて同定されるため、同定された手法に気をつけよう。
+- タンパク質間相互作用は様々な手法を用いて同定されるため、同定された手法に気をつけよう。
 
 最も確実かつ情報量が多いのはCo-crystalizationなどが挙げられ、次にBinaryの相互作用を検出できるY2HやPCAがある。免疫沈降ー質量分析（AP-MS）法はタンパク質を芋づる式につってしまうので、精査が必要だ。
 
 ![photo](https://danyamamotoevans.github.io/materials/nihms404378f1.jpg)
 
 
-2. タンパク質ペアの数は膨大（ヒトでは 20,000 x 20,000 / 2 = 20,000,000 ペア）で、全てが試験されているわけではない。あくまで、「これまでに報告のある」相互作用しか載っていない。
+- タンパク質ペアの数は膨大（ヒトでは 20,000 x 20,000 / 2 = 20,000,000 ペア）で、全てが試験されているわけではない。あくまで、「これまでに報告のある」相互作用しか載っていない。
 
 システマティックに全ての相互作用をスクリーンする仕事でない場合は、特定の遺伝子やタンパク質に着目したアッセイが行われる。そこでp53などの癌促進遺伝子などが他と比べ多く報告されることで、実際の相互作用数を表さないような分布を示すことがあるので気をつけよう。
 
 
 #### 2. 着目するタンパク質について、その相互作用を確認しよう
 
-[BioGRID](https://thebiogrid.org)のページにアクセスし、
+[BioGRID](https://thebiogrid.org)のページにアクセスし、自分の着目するタンパク質をサーチしよう。種がわかっている場合はプルダウンで種を指定しよう。
 
-
-![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.51.13.png)
-
-あ
-
-![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.53.34.png)
+![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.51.13.png)
 
 あ
 
+![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.53.34.png)
 
-![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.56.10.png)
+あ
+
+
+![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.56.10.png)
 
 
 
