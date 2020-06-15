@@ -388,6 +388,11 @@ BioGRIDは様々な文献で報告されているタンパク質間相互作用�
 
 
 
+![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.51.13.png)
+![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.53.34.png)
+![photo]((https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.56.10.png)
+
+
 
 
 
