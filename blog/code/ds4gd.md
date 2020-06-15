@@ -386,6 +386,9 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 BioGRIDは様々な文献で報告されているタンパク質間相互作用を統合しているデータベースで、オンライン上で任意のタンパク質について報告されている相互作用を確認することができる。
 
+![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.51.13.png)
+
+
 ここで注意が必要な点をいくつか挙げる。
 
 - タンパク質間相互作用は様々な手法を用いて同定されるため、同定された手法に気をつけよう。
@@ -402,16 +405,12 @@ BioGRIDは様々な文献で報告されているタンパク質間相互作用�
 
 #### 2. 着目するタンパク質について、その相互作用を確認しよう
 
-[BioGRID](https://thebiogrid.org)のページにアクセスし、自分の着目するタンパク質をサーチしよう。種がわかっている場合はプルダウンで種を指定しよう。
-
-![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.51.13.png)
-
-あ
+[BioGRID](https://thebiogrid.org)のページにアクセスし、自分の着目するタンパク質をサーチしよう。種がわかっている場合はプルダウンで種を指定しよう。ヒットしたタンパク質の一覧が出てくるので、自分の着目したタンパク質と合致したものを選択する。
 
 ![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.53.34.png)
 
-あ
 
+Interactorsのタブから、相互作用の報告されているタンパク質一覧が表示される。右のDetailsをクリックすると、報告の内容（論文、手法等）が見られる。今回の演習では立体構造の解かれているものを選びたいので、Co-crystal structureの報告があるかを見てみよう。
 
 ![photo](https://danyamamotoevans.github.io/materials/Screen Shot 2020-06-16 at 5.56.10.png)
 
