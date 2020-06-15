@@ -373,6 +373,12 @@ BioGRIDは様々な文献で報告されているタンパク質間相互作用�
 ここで注意が必要な点をいくつか挙げる。
 
 1. タンパク質間相互作用は様々な手法を用いて同定されるため、同定された手法に気をつけよう。
+
+[!photo](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwEo28OOeK3iOkTbKeOO2EEF2zwyTVTL5TshbgQey7wxHarwxi&usqp=CAU)
+
+
+
+
 2. タンパク質ペアの数は膨大（ヒトでは 20,000 x 20,000 / 2 = 20,000,000 ペア）で、全てが試験されているわけではない。あくまで、「これまでに報告のある」相互作用しか載っていない。
 
 
