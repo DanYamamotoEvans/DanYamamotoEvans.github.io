@@ -5,7 +5,7 @@
 
 
 
-内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第1回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第1回202062)）。[第2回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第2回202069)では、タンパク質の立体構造データを[Protein Data Bank (PDB)](https://www.rcsb.org)から取得し、変異情報を立体構造に描画する。最後に、[第3回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第3回2020616)では、ウイルスのタンパク質とホストのタンパク質の結合面を確認し、変異がそのようなドメインに濃縮しているのかや、ヒトとSARS-CoV-2の遺伝的多様性を確認する。
+内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第1回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第1回202062)）。[第2回](https://github.com/DanYamamotoEvans/DanYamamotoEvans.github.io/blob/master/blog/code/ds4gd.md#教育体験第2回202069)では、タンパク質の立体構造データを[Protein Data Bank (PDB)](https://www.rcsb.org)から取得し、立体構造上で変異情報を描画する。最後に、[第3回](https://danyamamotoevans.github.io/blog/code/ds4gd#タンパク質間相互作用を可視化しよう)では、ウイルスのタンパク質とホストのタンパク質の結合面を確認し、変異がそのようなドメインにあるのかや、タンパク質間相互作用ネットワークについて確認する。
 
 　評価は、各回に課される課題に基づいて行う。
 
@@ -364,7 +364,7 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 ### 目次
 1. タンパク質間相互作用データベースにアクセスしよう
 2. 着目するタンパク質について、その相互作用を確認しよう
-3. 第2回で確認したバリアントの位置を照らしてみよう　**演習**
+3. 第2回で確認したバリアントの位置を照らしてみよう　（**演習課題**）
 
 
 
@@ -374,6 +374,10 @@ SARS-CoV-2ではテクニカルなアーティファクトを含む多くの変�
 
 このようなタンパク質相互作用データはデータベースに蓄積されており、モデル生物をはじめとする多くが登録されている。第3回では、これまでに各々が着目したタンパク質（群）についてタンパク質間相互作用データベースにアクセスし、その相互作用を確認するとともにそのうちのいくつかについて立体構造を確認する。
 
+
+そもそも「相互作用」とはなんだろう？タンパク質や核酸の分子レベルでの相互作用は、突き詰めると水素結合に由来する。タンパク質の場合、アミノ酸の側鎖が整合して水素結合を形成する。もちろん、いくつも水素結合があればより強固な相互作用となる。細胞の中では、一時的（トランジエント）な相互作用や常にくっついているものまで様々だ。さらに、翻訳後修飾（PTM;Post Translational Modification）にも注意が必要で、シグナル経路に代表される相互作用にはリン酸化された（あるいはされてない）時のみ相互作用ができるものもある。それらを全てマップするのは膨大な組み合わせになるため、依然として多くの研究がなされている。
+
+![photo](https://www.researchgate.net/profile/Clinton_Orebaugh/publication/260684153/figure/fig1/AS:296897953714184@1447797396562/The-hydrogen-bonding-network-at-the-TREX1-dimer-interface-The-TREX1-dimer-Protein-Data.png)
 
 
 
