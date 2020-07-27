@@ -5,7 +5,7 @@
 
 
 
-内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第1回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第1回202062）。[第2回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第2回202069)では、タンパク質の立体構造データを[Protein Data Bank (PDB)](https://www.rcsb.org)から取得し、立体構造上で変異情報を描画する。最後に、[第3回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第3回2020615)では、ウイルスのタンパク質とホストのタンパク質の結合面を確認し、変異がそのようなドメインにあるのかや、タンパク質間相互作用ネットワークについて確認する。
+内容：COVID19の原因ウイルスSARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)について、公開データをもとにコドン使用バイアス、変異情報の解析を行う（[第1回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第1回202062）)。[第2回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第2回202069)では、タンパク質の立体構造データを[Protein Data Bank (PDB)](https://www.rcsb.org)から取得し、立体構造上で変異情報を描画する。最後に、[第3回](https://danyamamotoevans.github.io/blog/code/ds4gd#教育体験第3回2020615)では、ウイルスのタンパク質とホストのタンパク質の結合面を確認し、変異がそのようなドメインにあるのかや、タンパク質間相互作用ネットワークについて確認する。
 
 　評価は、各回に課される課題に基づいて行う。
 
