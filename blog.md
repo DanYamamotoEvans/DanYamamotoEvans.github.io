@@ -3,7 +3,7 @@
 ### Science related
 
 #### Coding 
-  1. [ggplot codes](https://danyamamotoevans.github.io/blog/code/ggplot)
+  1. [ggplot codes](https://danyamamotoevans.github.io/blog/code/ggplots)
   2. [TTCK server](https://danyamamotoevans.github.io/blog/code/ttck_server)
 
 Notes
