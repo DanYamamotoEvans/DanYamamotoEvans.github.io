@@ -29,20 +29,18 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 ### Honors and Awards
 
 #### Awards
-* Excellent Graduation Project (2018)
+* Excellent Graduation Project <br>
 Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
 ### Fellowships 
-* TTCK Fellowship, Keio University (2015 - current)
 * Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023)
 * Young Leader Scholarship Award, [Sylff organization](https://www.sylff.org) (2020, 1,000,000 yen) 
+* TTCK Fellowship, Keio University (2015 - current)
 
 ### Competetive Research Funds
-* Yamagishi Student Project Support Program, Keio University, 2016, 270,000 yen (Maximum 300,000 yen)
-* Yamagishi Student Project Support Program, Keio University, 2017, 240,000 yen (Maximum 300,000 yen)
 * Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240,000 yen (Maximum 300,000 yen)
-
-
+* Yamagishi Student Project Support Program, Keio University, 2017, 240,000 yen (Maximum 300,000 yen)
+* Yamagishi Student Project Support Program, Keio University, 2016, 270,000 yen (Maximum 300,000 yen)
 
 
 ### Skills
@@ -51,7 +49,7 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 * Basic bacterial and yeast cloning including methods using synthetic DNA barcodes
 * Yeast genetics
 * Experiments with robotic platforms (Qpix450,..) 
-* High-throughput sequecing facility operation (Illumina MiSeq, Oxford Nanopore minION) 
+* High-throughput sequecing facility operation (Illumina MiSeq, Oxford Nanopore MinION) 
 * Data anlysis (Mainly in Python scripts, analyzing deep sequencing data on SGE servers. A slice of R/ggplot.) 
 
 #### Language(s)
