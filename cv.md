@@ -11,8 +11,9 @@ daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 
 #### Education
-Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018 <br>
-Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - current [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
+Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018, Bachelor degree <br>
+Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - 2020, Masters degree <br>
+Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2020 - Current, Ph.D course [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
 
 
 #### Positions
@@ -27,16 +28,22 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 
 ### Honors and Awards
 
-#### Excellent Graduation Project
+#### Awards
+* Excellent Graduation Project (2018)
 Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
-### Fellowships and competetive funds
+### Fellowships 
 * TTCK Fellowship, Keio University (2015 - current)
-* Research fellowship for Young Scientist (DC1), JSPS  (Starting 2020)
+* Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023)
+* Young Leader Scholarship Award, [Sylff organization](https://www.sylff.org) (2020, 1,000,000 yen) 
 
-* Yamagishi Student Project Support Program, Keio University, 2016, 270k yen (Maximum 300k yen)
-* Yamagishi Student Project Support Program, Keio University, 2017, 240k yen (Maximum 300k yen)
-* Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240k yen (Maximum 300k yen)
+### Competetive Research Funds
+* Yamagishi Student Project Support Program, Keio University, 2016, 270,000 yen (Maximum 300,000 yen)
+* Yamagishi Student Project Support Program, Keio University, 2017, 240,000 yen (Maximum 300,000 yen)
+* Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240,000 yen (Maximum 300,000 yen)
+
+
+
 
 ### Skills
 
