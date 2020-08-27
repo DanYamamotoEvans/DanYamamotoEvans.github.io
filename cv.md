@@ -33,14 +33,14 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
 ### Fellowships 
-* Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023, 200,000 yen/month)
-* Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1,000,000 yen/year) 
-* Tsuruoka Town Campus of Keio Fellowship, Keio University (2015 - current, 40,000 ~ 150,000 yen/month)
+* Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023, [200,000 yen/month])
+* Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, [1,000,000 yen/year]) 
+* Tsuruoka Town Campus of Keio Fellowship, Keio University (2015 - current, 40,000 ~ [150,000 yen/month])
 
 ### Competetive Research Funds
-* Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy, 2019, 240,000 yen (Maximum 300,000 yen)
-* Yamagishi Student Project Support Program, Keio University, 2017, 240,000 yen (Maximum 300,000 yen)
-* Yamagishi Student Project Support Program, Keio University, 2016, 270,000 yen (Maximum 300,000 yen)
+* Taikichiro Mori Memorial Research Fund (Graduate Student Researcher Development Grant), Keio Univeristy (2019, [240,000 yen (Maximum 300,000 yen)])
+* Yamagishi Student Project Support Program, Keio University (2017, [240,000 yen (Maximum 300,000 yen)])
+* Yamagishi Student Project Support Program, Keio University (2016, [270,000 yen (Maximum 300,000 yen)])
 
 
 ### Skills
