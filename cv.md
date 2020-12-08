@@ -67,36 +67,37 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 
 #### Molecular biology lab techniques 
 ##### 1-	Genetic engineering
-  a.	Design and construction of various plasmid DNAs for bacteria, yeast and mammalian cells
-  b.	Design and construction of various gene induction circuits with DNA recombination
-  c.	Design and construction of plasmid DNA libraries including ORFeome libraries and DNA barcodes
+  a.	Design and construction of various plasmid DNAs for bacteria, yeast and mammalian cells <br>
+  b.	Design and construction of various gene induction circuits with DNA recombination <br>
+  c.	Design and construction of plasmid DNA libraries including ORFeome libraries and DNA barcodes <br>
 
 ##### 2-	Yeast molecular biology and genetics
-  a.	Yeast cell culture and transformation
-  b.	In-yeast DNA assembly
-  c.	Yeast two-hybrid method and DHFR-PCA to detect protein interactions
+  a.	Yeast cell culture and transformation <br>
+  b.	In-yeast DNA assembly <br>
+  c.	Yeast two-hybrid method and DHFR-PCA to detect protein interactions <br>
 
-##### 3-	Mammalian culture cell engineering
-  a.	Cell culture and passage of mammalian cells 
-  b.	Plasmid DNA transfection of mammalian cells
-  c.	CRISPR/Cas9 base editing in mammalian cells
+##### 3-	Mammalian culture cell engineering (moderate)
+  a.	Cell culture and passage of mammalian cells  <br>
+  b.	Plasmid DNA transfection of mammalian cells <br>
+  c.	CRISPR/Cas9 base editing in mammalian cells <br>
+  d.    Single-cell transcriptome using Drop-seq system <br>
 
 ##### 4-	Computational skills
 
-  a.	Python 
-      i.	Data analysis on public data 
-      ii.	Analyzing high-throughput DNA sequencing data
-      iii.	Parallel computing on Sun Grid Engine servers
-  b.	R
-      i.	Statistical testing 
-      ii.	Data visualization 
-  c.	Genome editing outcome analyses
-  d.	Single-cell transcriptome data analysis using Drop-seq tools (Moderate)
-  e.	Single-cell transcriptome data analysis using R, Seurat package (Moderate) 
+  a.	Python  <br>
+      i.	Data analysis on public data  <br>
+      ii.	Analyzing high-throughput DNA sequencing data <br>
+      iii.	Parallel computing on Sun Grid Engine servers <br>
+  b.	R <br>
+      i.	Statistical testing  <br>
+      ii.	Data visualization  <br>
+  c.	Genome editing outcome analyses <br>
+  d.	Single-cell transcriptome data analysis using Drop-seq tools (Moderate) <br>
+  e.	Single-cell transcriptome data analysis using R, Seurat package (Moderate)  <br>
 
 ##### 5-	Other skills
-  a.	Operation of a high-throughput sequencer (Illumina MiSeq)
-  b.	Operation of a Nanopore sequencer (Oxford Nanopore Technologies, MinION)
+  a.	Operation of a high-throughput sequencer (Illumina MiSeq) <br>
+  b.	Operation of a Nanopore sequencer (Oxford Nanopore Technologies, MinION) <br>
 
 
 #### Language(s)
