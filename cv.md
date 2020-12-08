@@ -3,10 +3,12 @@
 
 [PDF version](https://danyamamotoevans.github.io/CV_Dan_Yamamoto_20201205.pdf)
 
+## Dan Yamamoto (Daniel Evans-Yamamoto)
 
-
-#### Contact 
-daney [at] sfc.keio.ac.jp (Please replace [at] with @)
+Ph.D. Student <br>
+Institute for Advanced Biosciences, Keio University<br>
+Systems Biology Program, Graduate School of Media and Governance, Keio University<br>
+E-mail: daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 
 #### Education
