@@ -34,7 +34,7 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 
 ### Fellowships 
 * Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023, 200,000 JPY/month)
-* Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1,000,000 yen/year) 
+* Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1,000,000 JPY/year) 
 * Tsuruoka Town Campus of Keio Fellowship, Keio University<br> 
     (April 2020–Today)        648,000 JPY   (  $8,100 CAD)<br>
     (April 2019–March 2020)   800,000 JPY   ( $10,000 CAD)<br>
@@ -94,7 +94,7 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
   d.	Single-cell transcriptome data analysis using Drop-seq tools (Moderate)
   e.	Single-cell transcriptome data analysis using R, Seurat package (Moderate) 
 
-## 5-	Other skills
+##### 5-	Other skills
   a.	Operation of a high-throughput sequencer (Illumina MiSeq)
   b.	Operation of a Nanopore sequencer (Oxford Nanopore Technologies, MinION)
 
