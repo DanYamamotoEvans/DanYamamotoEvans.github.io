@@ -46,42 +46,42 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 
 ### Competetive Research Funds
 1. April 2020–March 2023, Grant-in-Aid for JSPS Fellows, Japan Society for Promotion of Science <br>
- Development of a novel analysis pipeline on protein evolution based on biophysical functionality  <br>
-　2,500,000 JPY ($31,250 CAD)<br><br>
+   Development of a novel analysis pipeline on protein evolution based on biophysical functionality  <br>
+   2,500,000 JPY ($31,250 CAD)<br><br>
 
 2. April 2019–March 2020, Taikichiro Mori Memorial Research Grant, Taikichiro Mori Memorial Research Fund<br>
-Evolution analysis on proteins from biophysical interaction properties<br>
-240,000 JPY ($3,000 CAD)<br>
+   Evolution analysis on proteins from biophysical interaction properties<br>
+   240,000 JPY ($3,000 CAD)<br>
 
 3. June 2017-February 2018, Yamagishi Student Project Support Program<br>
-Evolutionary analysis of protein complexes from an inter-species screening approach<br> 
-240,000 JPY ($3,000 CAD)<br>
+   Evolutionary analysis of protein complexes from an inter-species screening approach<br> 
+   240,000 JPY ($3,000 CAD)<br>
 
 4. June 2016-February 2017, Yamagishi Student Project Support Program<br> 
-Expanding high-throughput protein interaction detection methods towards personal interactome technologies<br>
-270,000 JPY ($3,375 CAD)<br>
+   Expanding high-throughput protein interaction detection methods towards personal interactome technologies<br>
+   270,000 JPY ($3,375 CAD)<br>
 
 
 
 ### Skills
 
 #### Molecular biology lab techniques 
-## 1-	Genetic engineering
+##### 1-	Genetic engineering
   a.	Design and construction of various plasmid DNAs for bacteria, yeast and mammalian cells
   b.	Design and construction of various gene induction circuits with DNA recombination
   c.	Design and construction of plasmid DNA libraries including ORFeome libraries and DNA barcodes
 
-## 2-	Yeast molecular biology and genetics
+##### 2-	Yeast molecular biology and genetics
   a.	Yeast cell culture and transformation
   b.	In-yeast DNA assembly
   c.	Yeast two-hybrid method and DHFR-PCA to detect protein interactions
 
-## 3-	Mammalian culture cell engineering
+##### 3-	Mammalian culture cell engineering
   a.	Cell culture and passage of mammalian cells 
   b.	Plasmid DNA transfection of mammalian cells
   c.	CRISPR/Cas9 base editing in mammalian cells
 
-## 4-	Computational skills
+##### 4-	Computational skills
 
   a.	Python 
       i.	Data analysis on public data 
