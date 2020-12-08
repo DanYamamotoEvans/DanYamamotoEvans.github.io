@@ -10,7 +10,7 @@ daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 
 #### Education
-Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018, Bachelor degree <br>
+Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018, Bachelor degree with Honors<br>
 Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - 2020, Masters degree <br>
 Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2020 - Current, Ph.D course [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
 
