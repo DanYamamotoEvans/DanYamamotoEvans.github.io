@@ -85,12 +85,12 @@ Awarded for the graduation thesis "Development of high-throughput technologies t
 ##### 4-	Computational skills
 
   a.	Python  <br>
-      i.	Data analysis on public data  <br>
-      ii.	Analyzing high-throughput DNA sequencing data <br>
-      iii.	Parallel computing on Sun Grid Engine servers <br>
+        i.	Data analysis on public data  <br>
+        ii.	Analyzing high-throughput DNA sequencing data <br>
+        iii.	Parallel computing on Sun Grid Engine servers <br>
   b.	R <br>
-      i.	Statistical testing  <br>
-      ii.	Data visualization  <br>
+        i.	Statistical testing  <br>
+        ii.	Data visualization  <br>
   c.	Genome editing outcome analyses <br>
   d.	Single-cell transcriptome data analysis using Drop-seq tools (Moderate) <br>
   e.	Single-cell transcriptome data analysis using R, Seurat package (Moderate)  <br>
