@@ -86,7 +86,7 @@ If both x and y axis need errorbars use '''geom_errorbarh()''' as:
 {need to add actuall figure here} 
 
 
-#### Ploting multiple 
+#### Ploting multiple panels (facet)
     
     scatter
     + facet_wrap(~Condition, nrow=2)
@@ -146,3 +146,9 @@ Statistics
                                        draw.llim = TRUE , 
                                        frame.colour = "black", 
                                        frame.linewidth=0.35))
+
+
+### Saving 
+    p <- set_panel_size(heatmap,width  = unit(5, "cm"),height = unit(5, "cm"))
+    grid.newpage()
+    grid.draw(p)
