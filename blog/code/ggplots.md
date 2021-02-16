@@ -121,22 +121,22 @@ Statistics
     + scale_x_continuous(expand=c(0,0),position = "top",breaks = seq(1.25,length(unique(dat$X))+1,1) ,labels = x_labs) 
     + scale_y_continuous(expand=c(0,0),breaks = seq(-1.25,-(length(unique(dat$Y))+1),-1) ,labels = x_labs)
     
-    +scale_fill_gradientn(colors=c(“#FFFFFF”,”#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))
+    +scale_fill_gradientn(colors=c("#FFFFFF”,"#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))
     
     +ylab("DHFR F[3] Strains")
     +xlab("DHFR F[1,2] Strains") 
     
     + theme(legend.text.align = 0,
-            legend.direction = “vertical",
+            legend.direction = "vertical",
             legend.position = "right", 
-            strip.background = element_rect(colour="#FFFFFF", color=“#FFFFFF”,fill="#FFFFFF"),
+            strip.background = element_rect(colour="#FFFFFF", color="#FFFFFF",fill="#FFFFFF"),
             panel.grid.minor = element_blank(),
             panel.grid.major = element_blank(),
             panel.background = element_blank(),
             aspect.ratio=length(unique(dat$Y))/length(unique(dat$X)),
             axis.ticks = element_blank(),
-            axis.text.x = element_text(angle = 90,vjust = 0, hjust=0,size=14,color=“#000000"),
-            axis.text.y = element_text(angle = 0, vjust = 0, hjust=0,size=14,color=“#000000"),
+            axis.text.x = element_text(angle = 90,vjust = 0, hjust=0,size=14,color="#000000"),
+            axis.text.y = element_text(angle = 0, vjust = 0, hjust=0,size=14,color="#000000"),
             axis.title.x = element_text(size = 14,color="#000000"),axis.title.y = element_text(size = 14, color="#000000")
             )
     + guides(   fill = guide_colorbar( barwidth   = 0.5, 
