@@ -120,7 +120,7 @@ Statistics
     geom_tile(aes(X,-Y,fill = Value))  + theme_bw()  +
     scale_x_continuous(expand=c(0,0),position = "top",breaks = seq(1.25,length(unique(dat$X))+1,1) ,labels = x_labs) +
     scale_y_continuous(expand=c(0,0),breaks = seq(-1.25,-(length(unique(dat$Y))+1),-1) ,labels = x_labs)+
-    scale_fill_gradientn(colors=c("#FFFFFF”,"#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))+
+    scale_fill_gradientn(colors=c("#FFFFFF","#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))+
     ylab("DHFR F[3] Strains")+
     xlab("DHFR F[1,2] Strains") +
     theme(legend.text.align = 0,
