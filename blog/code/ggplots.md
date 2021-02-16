@@ -143,10 +143,10 @@ Statistics
                                        barheight = length(unique(dat$Y))*0.75, 
                                        title="Value", 
                                        ticks =TRUE, 
-                                       ticks.colour=“#000000”,
+                                       ticks.colour="#000000",
                                        ticks.linewidth =1 , 
                                        draw.ulim = TRUE, 
                                        draw.llim = TRUE , 
-                                       frame.colour = “black”, 
+                                       frame.colour = "black", 
                                        frame.linewidth=0.35)
              )
