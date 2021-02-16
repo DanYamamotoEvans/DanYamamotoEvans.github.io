@@ -116,17 +116,14 @@ Statistics
 
 ### Heatmaps
 
-    heatmap = ggplot(dat )
-    +   geom_tile(aes(X,-Y,fill = Value))  + theme_bw()  
-    + scale_x_continuous(expand=c(0,0),position = "top",breaks = seq(1.25,length(unique(dat$X))+1,1) ,labels = x_labs) 
-    + scale_y_continuous(expand=c(0,0),breaks = seq(-1.25,-(length(unique(dat$Y))+1),-1) ,labels = x_labs)
-    
-    +scale_fill_gradientn(colors=c("#FFFFFF”,"#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))
-    
-    +ylab("DHFR F[3] Strains")
-    +xlab("DHFR F[1,2] Strains") 
-    
-    + theme(legend.text.align = 0,
+    heatmap = ggplot(dat ) +
+    geom_tile(aes(X,-Y,fill = Value))  + theme_bw()  +
+    scale_x_continuous(expand=c(0,0),position = "top",breaks = seq(1.25,length(unique(dat$X))+1,1) ,labels = x_labs) +
+    scale_y_continuous(expand=c(0,0),breaks = seq(-1.25,-(length(unique(dat$Y))+1),-1) ,labels = x_labs)+
+    scale_fill_gradientn(colors=c("#FFFFFF”,"#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))+
+    ylab("DHFR F[3] Strains")+
+    xlab("DHFR F[1,2] Strains") +
+    theme(legend.text.align = 0,
             legend.direction = "vertical",
             legend.position = "right", 
             strip.background = element_rect(colour="#FFFFFF", color="#FFFFFF",fill="#FFFFFF"),
@@ -138,8 +135,8 @@ Statistics
             axis.text.x = element_text(angle = 90,vjust = 0, hjust=0,size=14,color="#000000"),
             axis.text.y = element_text(angle = 0, vjust = 0, hjust=0,size=14,color="#000000"),
             axis.title.x = element_text(size = 14,color="#000000"),axis.title.y = element_text(size = 14, color="#000000")
-            )
-    + guides(   fill = guide_colorbar( barwidth   = 0.5, 
+            )+
+    guides(   fill = guide_colorbar( barwidth   = 0.5, 
                                        barheight = length(unique(dat$Y))*0.75, 
                                        title="Value", 
                                        ticks =TRUE, 
@@ -148,5 +145,4 @@ Statistics
                                        draw.ulim = TRUE, 
                                        draw.llim = TRUE , 
                                        frame.colour = "black", 
-                                       frame.linewidth=0.35)
-             )
+                                       frame.linewidth=0.35))
