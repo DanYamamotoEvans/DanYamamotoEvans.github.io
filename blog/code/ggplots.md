@@ -4,6 +4,9 @@
     ggplot2
     reshape2
     dplyr
+    egg
+    grid
+    tidyverse
 
 ### Colors
 Good colors:
@@ -54,8 +57,9 @@ A standard scatter plot:
                 panel.grid.minor = element_blank(),panel.grid.major = element_blank(),
                 panel.spacing = unit(0.75, "lines"),panel.background = element_blank(),
                 aspect.ratio=1.0,axis.ticks =element_line(color = "#000000", size = 0.15),
-                axis.text.x = element_text(color="#000000",size=10),axis.text.y = element_text(color="#000000",size=10), 
-                panel.border = element_rect(color="#000000", fill = NA)
+                axis.ticks = element_line(color="#000000",size=0.75)
+                axis.text.x = element_text(color="#000000",size=14),axis.text.y = element_text(color="#000000",size=14), 
+                panel.border = element_rect(color="#000000", fill = NA,size=1)
              )
              
 {need to add actuall figure here} 
@@ -120,7 +124,7 @@ Statistics
     geom_tile(aes(X,-Y,fill = Value))  + theme_bw()  +
     scale_x_continuous(expand=c(0,0),position = "top",breaks = seq(1.25,length(unique(dat$X))+1,1) ,labels = x_labs) +
     scale_y_continuous(expand=c(0,0),breaks = seq(-1.25,-(length(unique(dat$Y))+1),-1) ,labels = x_labs)+
-    scale_fill_gradientn(colors=c("#FFFFFF","#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.1))+
+    scale_fill_gradientn(colors=c("#FFFFFF","#ADD8E6","#0000FF","#003366","#000000"),limits=c(0,max(dat$Value)*1.05))+
     ylab("DHFR F[3] Strains")+
     xlab("DHFR F[1,2] Strains") +
     theme(legend.text.align = 0,
@@ -130,6 +134,8 @@ Statistics
             panel.grid.minor = element_blank(),
             panel.grid.major = element_blank(),
             panel.background = element_blank(),
+            axis.line = element_line(colour = "black"),
+            panel.border = element_rect(colour = "black", fill=NA, size=1),
             aspect.ratio=length(unique(dat$Y))/length(unique(dat$X)),
             axis.ticks = element_blank(),
             axis.text.x = element_text(angle = 90,vjust = 0, hjust=0,size=14,color="#000000"),
@@ -141,14 +147,15 @@ Statistics
                                        title="Value", 
                                        ticks =TRUE, 
                                        ticks.colour="#000000",
-                                       ticks.linewidth =1 , 
+                                       ticks.linewidth =0.75 , 
                                        draw.ulim = TRUE, 
                                        draw.llim = TRUE , 
                                        frame.colour = "black", 
-                                       frame.linewidth=0.35))
+                                       frame.linewidth=1))
 
 
 ### Saving 
     p <- set_panel_size(heatmap,width  = unit(5, "cm"),height = unit(5, "cm"))
     grid.newpage()
     grid.draw(p)
+    ggsave(file = "plot.pdf", plot = p)
