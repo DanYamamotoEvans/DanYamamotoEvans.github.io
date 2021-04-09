@@ -1,7 +1,7 @@
 ## About me
 
 Born a hybrid of Japan and New Zealand, I could experience growing up both the busiest and relaxing places in the world. Tokyo is where I was mostly raised, playing competitive baseball for 10 years until high school. In the year 2008, I spent 8 months in Feilding New Zealand, staying with my grandparents. That is where I discovered the fascinating sport rugby (Go All Blacks!!).
-Since 2014, I have been studying in the field of molecular biology on protein-protein interactions and high-throughput methods surrounding them under the supervision of [Dr. Nozomu Yachie](http://yachie-lab.org/index.php?nozomuyachie). From late 2020, I have started to work under supervision of [Dr. Christian Landry](https://landrylab.ibis.ulaval.ca/project/christian-landry-phd/) to use the methods I have developed to screen protein variants to study protein evolution. I am looking forward to share my works in papers and conferences.
+Since 2014, I have been studying in the field of molecular biology on protein-protein interactions and high-throughput methods surrounding them under the supervision of [Dr. Nozomu Yachie](http://yachie-lab.org/index.php?nozomuyachie). From late 2020, I have started to work under supervision of [Dr. Christian Landry](https://landrylab.ibis.ulaval.ca/project/christian-landry-phd) to use the methods I have developed to screen protein variants to study protein evolution. I am looking forward to share my works in papers and conferences.
   
 
 ![photo](https://danyamamotoevans.github.io/materials/IMG_7743.png)
