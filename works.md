@@ -11,11 +11,11 @@ None at the moment.
 
 #### Peer-reveiwed papers
 
-**2021**
+##### 2021
 
 - G. Suzuki, Y. Saito, M. Seki, **D. Evans-Yamamoto**, M. Negishi, K. Kakoi, H. Kawai, C. Landry, N. Yachie & T. Mitsuyama "Machine learning approach for discrimination of genotypes based on bright-field cellular images", (2021) _npj Systems Biology and Applications_ **7**:31 [Doi: 10.1038/s41540-021-00190-w](https://doi.org/10.1038/s41540-021-00190-w)
 
-**2020 and before**
+##### 2020 and before
 
 - Y. Murai, T. Masuda, Y. Onuma, **D. Evans-Yamamoto**, N. Takeuchi, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa "Complete Genome Sequence of Bacillus sp. Strain KH172YL63, Isolated from Deep-Sea Sediment", (2019) _Micro Biology Resource Announcements_ **9**:e00291-20 [Doi: 10.1128/MRA.00291-20](https://mra.asm.org/content/9/16/e00291-20)
 
