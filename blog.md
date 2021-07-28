@@ -3,9 +3,9 @@
 ### Science related
 
 #### Coding 
-  1. [ggplot codes](https://danyamamotoevans.github.io/blog/code/ggplots)
-  2. [TTCK server](https://danyamamotoevans.github.io/blog/code/ttck_server)
-  3. [Scripts for BFG-PCA](https://danyamamotoevans.github.io/BFG-PCA)
+  1. [Scripts for BFG-PCA](https://danyamamotoevans.github.io/BFG-PCA)
+  2. [ggplot codes]( https://danyamamotoevans.github.io/ggplot/)
+  3. [TTCK server](https://danyamamotoevans.github.io/blog/code/ttck_server)
 
 Notes
   1. [2020 Keio SFC Spring project Analysis part (Drop-seq bootcamp)](https://danyamamotoevans.github.io/blog/code/dropseq_bootcamp)
@@ -60,9 +60,5 @@ The lemon tabasco that they serve is also nice.
  They don't take reservation on that day, so reserve in advance.
  ```
  
-#### Life tips
-
-* [Things to care when moving out of Japan (as a Japanese citizen)](https://danyamamotoevans.github.io/blog/misc/things2do_when_moving_from_japan)
-
  
  
