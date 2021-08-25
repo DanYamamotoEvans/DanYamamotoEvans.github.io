@@ -1,7 +1,7 @@
 ## Curriculum Vitae 
-(As of December 5th, 2020)
+(As of August 25th, 2021)
 
-[PDF version](https://danyamamotoevans.github.io/CV_Dan_Yamamoto_20201205.pdf)
+[PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20210825.pdf)
 
 ## Dan Yamamoto (Daniel Evans-Yamamoto)
 
