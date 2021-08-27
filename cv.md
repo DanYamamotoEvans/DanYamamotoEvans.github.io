@@ -34,6 +34,10 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 * Excellent Graduation Project <br>
 Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
+* Best poster presentation (PhD and post-doctral devision)<br>
+Awarded for the poster "Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA):  tools and resources that expands the potential for binary protein interaction discovery" presented at IBIS student day 2021 <br>
+
+
 ### Fellowships 
 * Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023, 200,000 JPY/month)
 * Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1,000,000 JPY/year) 
