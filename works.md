@@ -7,21 +7,24 @@ Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?use
 
 #### Preprints and submitted papers
 
-- **D. Evans-Yamamoto**,  F.D. Rouleau, P. Nanda,  K. Makanae, Y. Liu,  P.C. Després,  H. Matsuo,  M. Seki, A.K. Dube, D. Ascencio,  N. Yachie &  C.R. Landry "BFG-PCA: tools and resources that expand the potential for binary protein interaction discovery", (2021) _bioRxiv_ [Doi: 10.1101/2021.07.27.453987](https://doi.org/10.1101/2021.07.27.453987) [Related scripts](https://danyamamotoevans.github.io/BFG-PCA)
-
+TBA
 
 #### Peer-reveiwed papers
+
+##### 2022
+- **D. Evans-Yamamoto**,  F.D. Rouleau, P. Nanda,  K. Makanae, Y. Liu,  P.C. Després,  H. Matsuo,  M. Seki, A.K. Dube, D. Ascencio,  N. Yachie &  C.R. Landry "BFG-PCA: tools and resources that expand the potential for binary protein interaction discovery", (2022) _Nucleic Acids Research_ [Doi: 10.1093/nar/gkac045](https://doi.org/10.1093/nar/gkac045) [Related scripts](https://danyamamotoevans.github.io/BFG-PCA)
+
 
 ##### 2021
 - G. Suzuki, Y. Saito, M. Seki, **D. Evans-Yamamoto**, M. Negishi, K. Kakoi, H. Kawai, C. Landry, N. Yachie & T. Mitsuyama "Machine learning approach for discrimination of genotypes based on bright-field cellular images", (2021) _npj Systems Biology and Applications_ **7**:31 [Doi: 10.1038/s41540-021-00190-w](https://doi.org/10.1038/s41540-021-00190-w)
 
 ##### 2020 
-- Y. Murai, T. Masuda, Y. Onuma, **D. Evans-Yamamoto**, N. Takeuchi, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa "Complete Genome Sequence of Bacillus sp. Strain KH172YL63, Isolated from Deep-Sea Sediment", (2020) _Micro Biology Resource Announcements_ **9**:e00291-20 [Doi: 10.1128/MRA.00291-20](https://mra.asm.org/content/9/16/e00291-20)
+- Y. Murai, T. Masuda, Y. Onuma, **D. Evans-Yamamoto**, N. Takeuchi, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa "Complete Genome Sequence of Bacillus sp. Strain KH172YL63, Isolated from Deep-Sea Sediment", (2020) _Microbiology Resource Announcements_ **9**:e00291-20 [Doi: 10.1128/MRA.00291-20](https://mra.asm.org/content/9/16/e00291-20)
 
 ##### 2019
 - A. Marchant, A. Cisneros, A.K. Dube, I. Gagnon-Arsenault, D. Ascencio, H. Jain, S. Aube, C. Eberlein, **D. Evans-Yamamoto**, N. Yachie, C.R. Landry., "The role of structural pleiotropy and regulatory evolution in the retention of heteromers of paralogs", (2019) _eLife_ **8**:e46754 [Doi: 10.7554/eLife.46754](https://elifesciences.org/articles/46754) 
 
-- **D. Evans-Yamamoto¶**, N. Takeuchi¶, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Micro Biology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)(¶ equal contribution)
+- **D. Evans-Yamamoto¶**, N. Takeuchi¶, T. Masuda, Y. Murai, Y. Onuma, H. Mori, N. Masuyama, S. Ishiguro, N. Yachie, K. Arakawa"Complete Genome Sequence of Psychrobacter sp. Strain KH172YL61, Isolated from Deep-Sea Sediments in the Nankai Trough, Japan", (2019) _Microbiology Resource Announcements_ **8**:e00326-19 [Doi: 10.1128/MRA.00326-19](https://mra.asm.org/content/8/16/e00326-19)(¶ equal contribution)
 
 ##### 2018
 - H. Mori, **D. Evans-Yamamoto**, S. Ishiguro, M. Tomita, and N. Yachie., "Fast and global detection of periodic sequence repeats in large genomic resources", (2018) _Nucleic Acid Research_ **47**(2):e8 [Doi: 10.1093/nar/gky890](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky890/5124599) 
