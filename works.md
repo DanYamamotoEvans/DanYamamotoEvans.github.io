@@ -34,7 +34,9 @@ TBA
 experiments”, (2017) _Nature Biotechnology_ **35**(4):310-312. [Doi: 10.1038/nbt.3758](https://www.nature.com/articles/nbt.3758)
 
 
-#### Reveiw papers (Japanese)
+#### Books (Japanese)
+
+- [超生物学—次のX〜私たちがいま手にしている細胞工学] (https://www.yodosha.co.jp/yodobook/book/9784758122528/159.html). 編集/谷内江 望, 2021年 羊土社, ISBN 978-4-7581-2252-8  谷内江 望, 増山 七海, 関 元昭, **山本-エヴァンス 楠**, 石黒 宗, 森 秀人, 坂田 莉奈, 今野 直輝, 松尾 仁嗣 & 木島 佑輔.  
 
 - 実験医学 別冊あなたのラボにAI×ロボットがやってくる, 124-129 2017年　”AI・LabDroidと交わす言葉をつくりだす” **山本-エヴァンス 楠** & 谷内江 望
 
