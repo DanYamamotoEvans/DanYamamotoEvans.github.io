@@ -7,7 +7,7 @@ Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?use
 
 #### Preprints and submitted papers
 
-TBA
+-  Y. Kijima, **D. Evans-Yamamoto**, Hiromi Toyoshima, Nozomu Yachie "A universal sequencing read interpreter", (2022) _BioRxiv_ [doi.org/10.1101/2022.04.16.488535](https://doi.org/10.1101/2022.04.16.488535)
 
 #### Peer-reveiwed papers
 
