@@ -12,7 +12,7 @@ Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?use
 #### Peer-reveiwed papers
 
 ##### 2022
-- **D. Evans-Yamamoto**,  F.D. Rouleau, P. Nanda,  K. Makanae, Y. Liu,  P.C. Després,  H. Matsuo,  M. Seki, A.K. Dube, D. Ascencio,  N. Yachie &  C.R. Landry "BFG-PCA: tools and resources that expand the potential for binary protein interaction discovery", (2022) _Nucleic Acids Research_ [Doi: 10.1093/nar/gkac045](https://doi.org/10.1093/nar/gkac045) [Related scripts](https://danyamamotoevans.github.io/BFG-PCA)
+- **D. Evans-Yamamoto**,  F.D. Rouleau, P. Nanda,  K. Makanae, Y. Liu,  P.C. Després,  H. Matsuo,  M. Seki, A.K. Dube, D. Ascencio,  N. Yachie &  C.R. Landry "BFG-PCA: tools and resources that expand the potential for binary protein interaction discovery", (2022) _Nucleic Acids Research_ **50**(9):e54 [Doi: 10.1093/nar/gkac045](https://doi.org/10.1093/nar/gkac045) [Related scripts](https://danyamamotoevans.github.io/BFG-PCA)
 
 
 ##### 2021
