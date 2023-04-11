@@ -6,14 +6,15 @@ ORC ID : [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827)
 Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en)
 
 #### Preprints and submitted papers
-
--  Y. Kijima, **D. Evans-Yamamoto**, Hiromi Toyoshima, Nozomu Yachie "A universal sequencing read interpreter", (2022) _BioRxiv_ [doi.org/10.1101/2022.04.16.488535](https://doi.org/10.1101/2022.04.16.488535)
+Coming soon!
 
 #### Peer-reveiwed papers
 
+#### 2023
+-  Y. Kijima, **D. Evans-Yamamoto**, Hiromi Toyoshima, Nozomu Yachie "A universal sequencing read interpreter", (2023) _Science Advances_ **9**(1):eadd279 [doi.org/10.1126/sciadv.add2793](https://doi.org/10.1126/sciadv.add2793)
+
 ##### 2022
 - **D. Evans-Yamamoto**,  F.D. Rouleau, P. Nanda,  K. Makanae, Y. Liu,  P.C. Després,  H. Matsuo,  M. Seki, A.K. Dube, D. Ascencio,  N. Yachie &  C.R. Landry "BFG-PCA: tools and resources that expand the potential for binary protein interaction discovery", (2022) _Nucleic Acids Research_ **50**(9):e54 [Doi: 10.1093/nar/gkac045](https://doi.org/10.1093/nar/gkac045) [Related scripts](https://danyamamotoevans.github.io/BFG-PCA)
-
 
 ##### 2021
 - G. Suzuki, Y. Saito, M. Seki, **D. Evans-Yamamoto**, M. Negishi, K. Kakoi, H. Kawai, C. Landry, N. Yachie & T. Mitsuyama "Machine learning approach for discrimination of genotypes based on bright-field cellular images", (2021) _npj Systems Biology and Applications_ **7**:31 [Doi: 10.1038/s41540-021-00190-w](https://doi.org/10.1038/s41540-021-00190-w)
