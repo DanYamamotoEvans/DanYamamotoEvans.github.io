@@ -1,5 +1,5 @@
 ## Curriculum Vitae 
-(As of April 1st, 2022)
+(As of October 4th, 2023)
 
 [PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20231004.pdf)
 
