@@ -11,7 +11,8 @@ To Be Announced :)
 #### Peer-reveiwed papers
 
 ##### 2023
-- **D. Evans-Yamamoto**, A.K. Dubé, G. Saha, S. Plante, D. Bradley, I. Gagnon-Arsenault, C.R. Landry "Parallel nonfunctionalization of CK1δ/ϵ kinase ohnologs following a whole-genome duplication event", (2023) _Molecular Biology and Evolution_ **40**(12):msad246 [Doi : 10.1093/molbev/msad246](https://doi.org/10.1093/molbev/msad246)
+- **D. Evans-Yamamoto**, A.K. Dubé¶, G. Saha¶, S. Plante, D. Bradley, I. Gagnon-Arsenault, C.R. Landry "Parallel nonfunctionalization of CK1δ/ϵ kinase ohnologs following a whole-genome duplication event", (2023) _Molecular Biology and Evolution_ **40**(12):msad246 [Doi : 10.1093/molbev/msad246](https://doi.org/10.1093/molbev/msad246) (¶ equal contribution)
+
 -  Y. Kijima, **D. Evans-Yamamoto**, H. Toyoshima, N. Yachie "A universal sequencing read interpreter", (2023) _Science Advances_ **9**(1):eadd279 [doi.org/10.1126/sciadv.add2793](https://doi.org/10.1126/sciadv.add2793)
 
 ##### 2022
