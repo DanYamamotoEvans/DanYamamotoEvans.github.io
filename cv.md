@@ -13,15 +13,16 @@ E-mail: daney [at] sfc.keio.ac.jp (Please replace [at] with @)
 
 #### Education
 Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018, Bachelor degree with Honors<br>
-Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2018 - 2020, Masters degree <br>
-Systems Biology program, Graduate school of Media and Governace, Keio University (Japan), 2020 - Current, Ph.D course [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
+Systems Biology program, Graduate school of Media and Governance, Keio University (Japan), 2018 - 2020, Masters degree <br>
+Systems Biology program, Graduate school of Media and Governance, Keio University (Japan), 2020 - Current, Ph.D course [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
 
 
 #### Positions
 ##### Current 
-Research Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), December 2020  - present <br>
+Adjunct Scientist, [The Systems Biology Institute](https://www.sbi.jp/), November 2023- Current<br>
 
 ##### Former
+Research Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), December 2020  - September 2023 <br>
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - 2020 <br>
 Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep <br>
 Member, Robotic biology consortium, 2015 - 2017 <br>
@@ -42,30 +43,32 @@ Awarded for the poster "Barcode Fusion Genetics-Protein-fragment Complementation
 * Watanabe Foundation International Scholarship, The Watanabe Foundation  (2022 - Presnt, 150 000 JPY/month)
 * Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1 000 000 JPY) 
 * Tsuruoka Town Campus of Keio Fellowship, Keio University<br> 
-    (April 2020–Today)        648 000 JPY   (  $8 100 CAD)<br>
-    (April 2019–March 2020)   800 000 JPY   ( $10 000 CAD)<br>
-    (April 2018–March 2019)   291 200 JPY   (  $3 640 CAD)<br>
-    (April 2017–March 2018)   460 000 JPY   (  $5 750 CAD)<br>
-    (April 2016–March 2017)   433 330 JPY   (  $5 416 CAD)<br>
-    (April 2015–March 2016)   454 900 JPY   (  $5 686 CAD)<br>
+    (April 2022–March 2023)    1 560 000 JPY   <br>
+    (April 2021–March 2022)    1 560 000 JPY   <br>
+    (April 2020–March 2021)    1 230 000 JPY   <br>
+    (April 2019–March 2020)      800 000 JPY   <br>
+    (April 2018–March 2019)      291 200 JPY   <br>
+    (April 2017–March 2018)      460 000 JPY   <br>
+    (April 2016–March 2017)      433 330 JPY   <br>
+    (April 2015–March 2016)      454 900 JPY   <br>
 <br>
 
 ### Competetive Research Funds
 1. April 2020–March 2023, Grant-in-Aid for JSPS Fellows, Japan Society for Promotion of Science <br>
    Development of a novel analysis pipeline on protein evolution based on biophysical functionality  <br>
-   2,500,000 JPY ($31 250 CAD)<br><br>
+   2,500,000 JPY<br><br>
 
 2. April 2019–March 2020, Taikichiro Mori Memorial Research Grant, Taikichiro Mori Memorial Research Fund<br>
    Evolution analysis on proteins from biophysical interaction properties<br>
-   240,000 JPY ($3 000 CAD)<br>
+   240,000 JPY <br>
 
 3. June 2017-February 2018, Yamagishi Student Project Support Program<br>
    Evolutionary analysis of protein complexes from an inter-species screening approach<br> 
-   240,000 JPY ($3 000 CAD)<br>
+   240,000 JPY <br>
 
 4. June 2016-February 2017, Yamagishi Student Project Support Program<br> 
    Expanding high-throughput protein interaction detection methods towards personal interactome technologies<br>
-   270,000 JPY ($3 375 CAD)<br>
+   270,000 JPY <br>
 
 
 
