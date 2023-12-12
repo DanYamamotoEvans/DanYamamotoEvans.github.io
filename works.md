@@ -6,7 +6,9 @@ ORC ID : [0000-0001-6467-3827](https://orcid.org/0000-0001-6467-3827)
 Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?user=w6Muoh8AAAAJ&hl=en)
 
 #### Preprints and submitted papers
-To Be Announced :)  
+
+- S. Jiang¶, **D. Evans-Yamamoto**¶, D. Bersenev, S.K. Palaniappan, A. Yachie-Kinoshita "ProtoCode: Leveraging Large Language Models for Automated Generation of Machine-Readable Protocols from Scientific Publications", 11 December 2023 _arXiv_ [arXiv:2312.06241](https://arxiv.org/abs/2312.06241) (¶ equal contribution)
+
 
 #### Peer-reveiwed papers
 
