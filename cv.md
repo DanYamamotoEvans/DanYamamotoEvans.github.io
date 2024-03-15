@@ -1,21 +1,19 @@
 ## Curriculum Vitae 
 (As of October 4th, 2023)
 
-[PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20231004.pdf)
+[PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20240315.pdf)
 
-## Dan Yamamoto (Daniel Evans-Yamamoto)
+## Daniel Evans-Yamamoto, Ph.D.
 
-Ph.D. Student <br>
-Institute for Advanced Biosciences, Keio University<br>
-Systems Biology Program, Graduate School of Media and Governance, Keio University<br>
-E-mail: daney [at] sfc.keio.ac.jp (Please replace [at] with @)
+Adjunct Scientist<br> 
+[The Systems Biology Institute](https://www.sbi.jp/)<br>
+
+Personal E-mail: dan.yamamoto.evans /at/ gmail.com (Please replace /at/ with @)
 
 
 #### Education
+[Systems Biology program, Graduate school of Media and Governance, Keio University (Japan)]((http://www.iab.keio.ac.jp/en/index.html)), 2018 - 2024<br>
 Department of Environment and Information Studies, Keio University (Japan), 2014 - 2018, Bachelor degree with Honors<br>
-Systems Biology program, Graduate school of Media and Governance, Keio University (Japan), 2018 - 2020, Masters degree <br>
-Systems Biology program, Graduate school of Media and Governance, Keio University (Japan), 2020 - Current, Ph.D course [(link)](http://www.iab.keio.ac.jp/en/index.html)<br>
-
 
 #### Positions
 ##### Current 
@@ -31,18 +29,21 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 ### Honors and Awards
 
 #### Awards
-* Excellent Graduation Project <br>
-Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
+* Outstanding Doctrol Dissertation <br>
+Awarded for the graduation thesis "Charactrizing protein evolution with systematic protein-protein interaction screenings" by Systems biology project, Keio University SFC (March 2024) <br>
 
 * Best poster presentation (PhD and post-doctral devision)<br>
 Awarded for the poster "Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA):  tools and resources that expands the potential for binary protein interaction discovery" presented at IBIS student day 2021 <br>
 
+* Excellent Graduation Project <br>
+Awarded for the graduation thesis "Development of high-throughput technologies to screen protein interactomes" by Keio University (Year of 2018) <br>
 
 ### Fellowships 
-* Research Fellowship for Young Scientist (DC1), JSPS  (2020 - 2023, 200 000 JPY/month)
-* Watanabe Foundation International Scholarship, The Watanabe Foundation  (2022 - Presnt, 150 000 JPY/month)
+* Research Fellowship for Young Scientist (DC1), JSPS  (April 2020 - September 2023, 200 000 JPY/month)
+* Watanabe Foundation International Scholarship, The Watanabe Foundation  (June 2022 - February 2023, 150 000 JPY/month)
 * Graduate Fellowship for Young Leaders, [Sylff organization through Keio University](https://www.sylff.org/institutions/keio-university/) (2020, 1 000 000 JPY) 
 * Tsuruoka Town Campus of Keio Fellowship, Keio University<br> 
+    (April 2023–March 2024)    1 560 000 JPY   <br>
     (April 2022–March 2023)    1 560 000 JPY   <br>
     (April 2021–March 2022)    1 560 000 JPY   <br>
     (April 2020–March 2021)    1 230 000 JPY   <br>
