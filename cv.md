@@ -1,7 +1,7 @@
 ## Curriculum Vitae 
-(As of October 4th, 2023)
+(As of April 1st, 2024)
 
-[PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20240315.pdf)
+[PDF version](https://danyamamotoevans.github.io/materials/CV_Dan_Yamamoto_20240401.pdf)
 
 ## Daniel Evans-Yamamoto, Ph.D.
 
@@ -17,10 +17,13 @@ Department of Environment and Information Studies, Keio University (Japan), 2014
 
 #### Positions
 ##### Current 
-Adjunct Scientist, [The Systems Biology Institute](https://www.sbi.jp/), November 2023- Current<br>
+Researcher, [The Systems Biology Institute](https://www.sbi.jp/), April 2024- Current<br>
 
 ##### Former
-Research Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), December 2020  - September 2023 <br>
+Adjunct Researcher, [The Systems Biology Institute](https://www.sbi.jp/), November 2023- March 2024<br>
+Part-time researcher, [The Systems Biology Institute](https://www.sbi.jp/), January 2019- October 2023<br>
+
+Research intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), December 2020  - September 2023 <br>
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - 2020 <br>
 Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), 2018 Aug - 2018 Sep <br>
 Member, Robotic biology consortium, 2015 - 2017 <br>
@@ -29,8 +32,8 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 ### Honors and Awards
 
 #### Awards
-* Outstanding Doctrol Dissertation <br>
-Awarded for the graduation thesis "Charactrizing protein evolution with systematic protein-protein interaction screenings" by Systems biology project, Keio University SFC (March 2024) <br>
+* Outstanding Doctoral Dissertation <br>
+Awarded for the dissertation "Charactrizing protein evolution with systematic protein-protein interaction screenings" by the Systems biology project, Keio University SFC (March 2024) <br>
 
 * Best poster presentation (PhD and post-doctral devision)<br>
 Awarded for the poster "Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA):  tools and resources that expands the potential for binary protein interaction discovery" presented at IBIS student day 2021 <br>
