@@ -7,10 +7,12 @@ Google scholar: [Daniel Evans-Yamamoto](https://scholar.google.com/citations?use
 
 #### Preprints and submitted papers
 
-- S. Jiang¶, **D. Evans-Yamamoto**¶, D. Bersenev, S.K. Palaniappan, A. Yachie-Kinoshita "ProtoCode: Leveraging Large Language Models for Automated Generation of Machine-Readable Protocols from Scientific Publications", 11 December 2023 _arXiv_ [arXiv:2312.06241](https://arxiv.org/abs/2312.06241) (¶ equal contribution)
-
+TBA
 
 #### Peer-reveiwed papers
+
+#### 2024
+- S. Jiang¶, **D. Evans-Yamamoto**¶, D. Bersenev, S.K. Palaniappan, A. Yachie-Kinoshita "ProtoCode: Leveraging large language models (LLMs) for automated generation of machine-readable PCR protocols from scientific publications", 23 April 2023 _SLAS Technology_ **29**(3):100134 [Doi: j.slast.2024.100134](https://doi.org/10.1016/j.slast.2024.100134) (¶ equal contribution)
 
 ##### 2023
 - **D. Evans-Yamamoto**, A.K. Dubé¶, G. Saha¶, S. Plante, D. Bradley, I. Gagnon-Arsenault, C.R. Landry "Parallel nonfunctionalization of CK1δ/ϵ kinase ohnologs following a whole-genome duplication event", (2023) _Molecular Biology and Evolution_ **40**(12):msad246 [Doi : 10.1093/molbev/msad246](https://doi.org/10.1093/molbev/msad246) (¶ equal contribution)
