@@ -17,11 +17,11 @@ Department of Environment and Information Studies, Keio University (Japan), 2014
 
 #### Positions
 ##### Current 
-Researcher, [The Systems Biology Institute](https://www.sbi.jp/), April 2024- Current<br>
+Scientist, [The Systems Biology Institute](https://www.sbi.jp/), April 2024- Current<br>
 
 ##### Former
-Adjunct Researcher, [The Systems Biology Institute](https://www.sbi.jp/), November 2023- March 2024<br>
-Part-time researcher, [The Systems Biology Institute](https://www.sbi.jp/), January 2019- October 2023<br>
+Adjunct Scientist, [The Systems Biology Institute](https://www.sbi.jp/), November 2023- March 2024<br>
+Part-time Researcher, [The Systems Biology Institute](https://www.sbi.jp/), January 2019- October 2023<br>
 
 Research intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (Canada), December 2020  - September 2023 <br>
 Research student, [Yachie lab](http://yachie-lab.org), RCAST, The University of Tokyo (Japan), 2014 - 2020 <br>
