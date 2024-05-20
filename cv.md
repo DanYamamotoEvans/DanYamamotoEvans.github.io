@@ -33,7 +33,7 @@ Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 
 
 #### Awards
 * Outstanding Doctoral Dissertation <br>
-Awarded for the dissertation "(Charactrizing protein evolution with systematic protein-protein interaction screenings)[https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/detail.php?koara_id=KO90001001-20236178-0003&ml_lang=en]" by the Systems biology project, Keio University SFC (March 2024) <br>
+Awarded for the dissertation "[Charactrizing protein evolution with systematic protein-protein interaction screenings](https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/detail.php?koara_id=KO90001001-20236178-0003&ml_lang=en)" by the Systems biology project, Keio University SFC (March 20x24) <br>
 
 * Best poster presentation (PhD and post-doctral devision)<br>
 Awarded for the poster "Barcode Fusion Genetics-Protein-fragment Complementation Assay (BFG-PCA):  tools and resources that expands the potential for binary protein interaction discovery" presented at IBIS student day 2021 <br>
