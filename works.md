@@ -11,8 +11,9 @@ TBA
 
 #### Peer-reveiwed papers
 
-#### 2024
-- S. Jiang¶, **D. Evans-Yamamoto**¶, D. Bersenev, S.K. Palaniappan, A. Yachie-Kinoshita "ProtoCode: Leveraging large language models (LLMs) for automated generation of machine-readable PCR protocols from scientific publications", 23 April 2023 _SLAS Technology_ **29**(3):100134 [Doi: j.slast.2024.100134](https://doi.org/10.1016/j.slast.2024.100134) (¶ equal contribution)
+##### 2024
+- S. Jiang¶, **D. Evans-Yamamoto**¶, D. Bersenev, S.K. Palaniappan, A. Yachie-Kinoshita "ProtoCode: Leveraging large language models (LLMs) for automated generation of machine-readable PCR protocols from scientific publications", 23 April 2023 _SLAS Technology_ **29**(3):100134 [Doi: j.slast.2024.100134](https://doi.org/10.1016/j.slast.2024.100134) (¶ equal contribution)<br>
+  <ins>This paper was selected as SLAS Technology Editor's Top 10 for 2024</ins> ([link](https://www.sciencedirect.com/special-issue/10RFL204ZB4))
 
 ##### 2023
 - **D. Evans-Yamamoto**, A.K. Dubé¶, G. Saha¶, S. Plante, D. Bradley, I. Gagnon-Arsenault, C.R. Landry "Parallel nonfunctionalization of CK1δ/ϵ kinase ohnologs following a whole-genome duplication event", (2023) _Molecular Biology and Evolution_ **40**(12):msad246 [Doi : 10.1093/molbev/msad246](https://doi.org/10.1093/molbev/msad246) (¶ equal contribution)
