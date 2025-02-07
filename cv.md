@@ -29,6 +29,15 @@ Intern, [Landry lab](https://landrylab.ibis.ulaval.ca), IBIS, Laval University (
 Member, Robotic biology consortium, 2015 - 2017 <br>
 Research student, Japan Agency for Marine-Earth Science and Technology (Japan), 2015-2016 <br>
 
+#### Teaching Experience (newest to oldest)
+- Lecture, Institute of Science Tokyo, Introduction to Systems Medicine　(システム医学概論), 2024 Data Science Human Resource Development Program<br>
+  He provided a 45 minute lecture on basics of proteins, protein function, protein evolution, and protein design.
+- Lecture, International Christian University (ICU), QNLS507 System Biology, 2024 Summer courses (Japanese)<br>
+  He provided a 70 minute lecture on basics of proteins, protein function, protein evolution, and protein design.
+- Lecturer, Keio University SFC, B3206: Data science for Genome Dynamics, 2020 Spring Semester (Japanese)<br>
+  He was responsible for a fifth of all lectures as a part of teaching experience in the doctral degree. He provided lecture and hands-on training to collect protein sequrnces from public databases, analyze protein variants, and map to structures in the Protein Databank. (Japanese)
+
+
 ### Honors and Awards
 
 #### Awards
